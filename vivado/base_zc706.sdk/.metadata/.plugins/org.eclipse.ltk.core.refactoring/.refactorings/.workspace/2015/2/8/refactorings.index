@@ -1,0 +1,6 @@
+1424120284558	Delete resource 'zedboard-fmc-axi-ethernet/zynq_linux_axiethernet_driver'
+1424122080825	Delete resource 'zedboard-fmc-axi-ethernet/linux-xlnx'
+1424122576218	Delete resource 'zedboard-fmc-axi-ethernet/zynq_linux_axiethernet_driver/buildroot'
+1424123687840	Delete resource 'zedboard-fmc-axi-ethernet/zynq_linux_axiethernet_driver'
+1424125703290	Delete resource 'zedboard-fmc-axi-ethernet'
+1424128029708	Delete resource 'zedboard-fmc-axi-ethernet-kernel'

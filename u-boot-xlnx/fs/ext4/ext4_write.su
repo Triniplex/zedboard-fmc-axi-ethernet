@@ -1,0 +1,5 @@
+ext4_write.c:30:13:ext4fs_update	24	static
+ext4_write.c:64:5:ext4fs_get_bgdtable	24	static
+ext4_write.c:676:6:ext4fs_deinit	160	static
+ext4_write.c:583:5:ext4fs_init	32	static
+ext4_write.c:820:5:ext4fs_write	528	static

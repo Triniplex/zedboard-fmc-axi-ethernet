@@ -1,0 +1,5 @@
+demo.c:201:6:test_dump_sig	8	static
+demo.c:209:6:test_dump_si	24	static
+demo.c:263:6:test_dump_buf	32	static
+demo.c:293:6:test_dump_di	16	static
+demo.c:27:5:main	56	static

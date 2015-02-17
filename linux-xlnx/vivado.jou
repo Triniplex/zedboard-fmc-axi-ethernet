@@ -1,0 +1,182 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:47:07 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Fri Feb 13 19:18:13 2015
+# Process ID: 7139
+# Log file: /root/zynq_linux_axiethernet_driver/linux-xlnx/vivado.log
+# Journal file: /root/zynq_linux_axiethernet_driver/linux-xlnx/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /root/base_zc706/base_zc706.xpr
+open_bd_design {/root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/Z_system.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+set_property -dict [list CONFIG.preset {ZC706}] [get_bd_cells processing_system7_0]
+delete_bd_objs [get_bd_intf_ports FIXED_IO]
+startgroup
+delete_bd_objs [get_bd_ports reset_port_3] [get_bd_ports reset_port_2] [get_bd_ports reset_port_1] [get_bd_ports reset_port_0]
+delete_bd_objs [get_bd_intf_ports rgmii_port_2] [get_bd_intf_ports rgmii_port_1] [get_bd_intf_ports rgmii_port_0] [get_bd_intf_ports mdio_io_port_3] [get_bd_intf_ports PL_DDR3] [get_bd_intf_ports mdio_io_port_2] [get_bd_intf_ports mdio_io_port_1] [get_bd_intf_ports mdio_io_port_0] [get_bd_intf_ports rgmii_port_3]
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "0" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+startgroup
+set_property -dict [list CONFIG.PCW_USE_S_AXI_GP0 {1}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.PCW_FPGA0_PERIPHERAL_FREQMHZ {100} CONFIG.PCW_FPGA1_PERIPHERAL_FREQMHZ {200} CONFIG.PCW_USE_S_AXI_GP0 {0} CONFIG.PCW_USE_S_AXI_HP0 {1} CONFIG.PCW_USE_FABRIC_INTERRUPT {1} CONFIG.PCW_EN_CLK1_PORT {1} CONFIG.PCW_IRQ_F2P_INTR {1}] [get_bd_cells processing_system7_0]
+endgroup
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_ethernet:6.2 axi_ethernet_0
+endgroup
+set_property -dict [list CONFIG.PHY_TYPE {RGMII}] [get_bd_cells axi_ethernet_0]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi_ethernet -config {PHY_TYPE "RGMII" FIFO_DMA "DMA" }  [get_bd_cells axi_ethernet_0]
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/axi_ethernet_0_dma/M_AXI_SG" Clk "Auto" }  [get_bd_intf_pins processing_system7_0/S_AXI_HP0]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_0/s_axi]
+apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_0/mdio_io]
+apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_0/rgmii]
+apply_bd_automation -rule xilinx.com:bd_rule:board -config {Board_Interface "Custom" }  [get_bd_pins axi_ethernet_0/phy_rst_n]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_0_dma/S_AXI_LITE]
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_0_dma/M_AXI_MM2S]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_0_dma/M_AXI_S2MM]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_ethernet:6.2 axi_ethernet_1
+endgroup
+current_bd_design [get_bd_designs Z_system]
+startgroup
+set_property -dict [list CONFIG.PHY_TYPE {RGMII} CONFIG.SupportLevel {0}] [get_bd_cells axi_ethernet_1]
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi_ethernet -config {PHY_TYPE "RGMII" FIFO_DMA "DMA" }  [get_bd_cells axi_ethernet_1]
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_1/s_axi]
+apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_1/mdio_io]
+apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_1/rgmii]
+apply_bd_automation -rule xilinx.com:bd_rule:board -config {Board_Interface "Custom" }  [get_bd_pins axi_ethernet_1/phy_rst_n]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_1_dma/S_AXI_LITE]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_1_dma/M_AXI_SG]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_1_dma/M_AXI_MM2S]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_1_dma/M_AXI_S2MM]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_ethernet:6.2 axi_ethernet_2
+endgroup
+current_bd_design [get_bd_designs Z_system]
+startgroup
+set_property -dict [list CONFIG.PHY_TYPE {RGMII} CONFIG.SupportLevel {0}] [get_bd_cells axi_ethernet_2]
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi_ethernet -config {PHY_TYPE "RGMII" FIFO_DMA "DMA" }  [get_bd_cells axi_ethernet_2]
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_2/s_axi]
+apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_2/mdio_io]
+apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_2/rgmii]
+apply_bd_automation -rule xilinx.com:bd_rule:board -config {Board_Interface "Custom" }  [get_bd_pins axi_ethernet_2/phy_rst_n]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_2_dma/S_AXI_LITE]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_2_dma/M_AXI_SG]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_2_dma/M_AXI_MM2S]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_2_dma/M_AXI_S2MM]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_ethernet:6.2 axi_ethernet_3
+endgroup
+current_bd_design [get_bd_designs Z_system]
+startgroup
+set_property -dict [list CONFIG.PHY_TYPE {RGMII} CONFIG.SupportLevel {0}] [get_bd_cells axi_ethernet_3]
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi_ethernet -config {PHY_TYPE "RGMII" FIFO_DMA "DMA" }  [get_bd_cells axi_ethernet_3]
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_3/s_axi]
+apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_3/mdio_io]
+apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_3/rgmii]
+apply_bd_automation -rule xilinx.com:bd_rule:board -config {Board_Interface "Custom" }  [get_bd_pins axi_ethernet_3/phy_rst_n]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_3_dma/S_AXI_LITE]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_3_dma/M_AXI_SG]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_3_dma/M_AXI_MM2S]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_3_dma/M_AXI_S2MM]
+endgroup
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+connect_bd_net [get_bd_pins axi_ethernet_0/gtx_clk] [get_bd_pins util_ds_buf_0/IBUF_OUT]
+connect_bd_net [get_bd_pins axi_ethernet_0/ref_clk] [get_bd_pins processing_system7_0/FCLK_CLK1]
+connect_bd_net [get_bd_pins axi_ethernet_0/gtx_clk_out] [get_bd_pins axi_ethernet_1/gtx_clk]
+connect_bd_net -net [get_bd_nets axi_ethernet_0_gtx_clk_out] [get_bd_pins axi_ethernet_2/gtx_clk] [get_bd_pins axi_ethernet_0/gtx_clk_out]
+connect_bd_net -net [get_bd_nets axi_ethernet_0_gtx_clk_out] [get_bd_pins axi_ethernet_3/gtx_clk] [get_bd_pins axi_ethernet_0/gtx_clk_out]
+connect_bd_net [get_bd_pins axi_ethernet_0/gtx_clk90_out] [get_bd_pins axi_ethernet_1/gtx_clk90]
+connect_bd_net -net [get_bd_nets axi_ethernet_0_gtx_clk_out] [get_bd_pins axi_ethernet_2/gtx_clk90] [get_bd_pins axi_ethernet_0/gtx_clk_out]
+undo
+connect_bd_net -net [get_bd_nets axi_ethernet_0_gtx_clk90_out] [get_bd_pins axi_ethernet_2/gtx_clk90] [get_bd_pins axi_ethernet_0/gtx_clk90_out]
+connect_bd_net -net [get_bd_nets axi_ethernet_0_gtx_clk90_out] [get_bd_pins axi_ethernet_3/gtx_clk90] [get_bd_pins axi_ethernet_0/gtx_clk90_out]
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_0
+endgroup
+set_property -dict [list CONFIG.NUM_PORTS {16}] [get_bd_cells xlconcat_0]
+connect_bd_net [get_bd_pins axi_ethernet_1/mac_irq] [get_bd_pins xlconcat_0/In0]
+connect_bd_net [get_bd_pins axi_ethernet_1/interrupt] [get_bd_pins xlconcat_0/In1]
+undo
+undo
+regenerate_bd_layout
+set_property location {6 2570 576} [get_bd_cells axi_ethernet_0]
+regenerate_bd_layout -routing
+set_property location {4 1274 455} [get_bd_cells axi_ethernet_0_dma]
+regenerate_bd_layout -routing
+set_property location {5 1760 -139} [get_bd_cells axi_mem_intercon]
+regenerate_bd_layout -routing
+connect_bd_net [get_bd_pins axi_ethernet_0/mac_irq] [get_bd_pins xlconcat_0/In0]
+connect_bd_net [get_bd_pins axi_ethernet_0/interrupt] [get_bd_pins xlconcat_0/In1]
+connect_bd_net [get_bd_pins axi_ethernet_0_dma/mm2s_introut] [get_bd_pins xlconcat_0/In2]
+connect_bd_net [get_bd_pins axi_ethernet_0_dma/s2mm_introut] [get_bd_pins xlconcat_0/In3]
+connect_bd_net [get_bd_pins axi_ethernet_1/mac_irq] [get_bd_pins xlconcat_0/In4]
+connect_bd_net [get_bd_pins axi_ethernet_1/interrupt] [get_bd_pins xlconcat_0/In5]
+connect_bd_net [get_bd_pins axi_ethernet_1_dma/mm2s_introut] [get_bd_pins xlconcat_0/In6]
+connect_bd_net [get_bd_pins axi_ethernet_1_dma/s2mm_introut] [get_bd_pins xlconcat_0/In7]
+connect_bd_net [get_bd_pins axi_ethernet_2/mac_irq] [get_bd_pins xlconcat_0/In8]
+connect_bd_net [get_bd_pins axi_ethernet_2/interrupt] [get_bd_pins xlconcat_0/In9]
+connect_bd_net [get_bd_pins axi_ethernet_3/mac_irq] [get_bd_pins xlconcat_0/In10]
+connect_bd_net [get_bd_pins axi_ethernet_3/interrupt] [get_bd_pins xlconcat_0/In11]
+connect_bd_net [get_bd_pins axi_ethernet_2_dma/mm2s_introut] [get_bd_pins xlconcat_0/In12]
+connect_bd_net [get_bd_pins axi_ethernet_2_dma/s2mm_introut] [get_bd_pins xlconcat_0/In13]
+regenerate_bd_layout
+regenerate_bd_layout -routing
+delete_bd_objs [get_bd_cells idelay_ctrl_0]
+connect_bd_net [get_bd_pins axi_ethernet_3_dma/mm2s_introut] [get_bd_pins xlconcat_0/In14]
+connect_bd_net [get_bd_pins axi_ethernet_3_dma/s2mm_introut] [get_bd_pins xlconcat_0/In15]
+regenerate_bd_layout -routing
+connect_bd_net [get_bd_pins xlconcat_0/dout] [get_bd_pins processing_system7_0/IRQ_F2P]
+regenerate_bd_layout
+set_property name rgmii_port_0 [get_bd_intf_ports rgmii_rtl]
+set_property name mdio_io_port_0 [get_bd_intf_ports mdio_io]
+set_property name rgmii_port_1 [get_bd_intf_ports rgmii_rtl_0]
+set_property name mdio_io_port_1 [get_bd_intf_ports mdio_io_0]
+set_property name rgmii_port_2 [get_bd_intf_ports rgmii_rtl_1]
+set_property name mdio_io_port_2 [get_bd_intf_ports mdio_io_1]
+set_property name rgmii_port_3 [get_bd_intf_ports rgmii_rtl_2]
+set_property name mdio_io_port_3 [get_bd_intf_ports mdio_io_2]
+set_property name reset_port_3 [get_bd_ports reset_rtl_0_1_2]
+set_property name reset_port_1 [get_bd_ports reset_rtl_0]
+set_property name reset_port_2 [get_bd_ports reset_rtl_0_1]
+set_property name reset_port_0 [get_bd_ports reset_rtl]
+save_bd_design
+validate_bd_design
+generate_target all [get_files  /root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/Z_system.bd]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+file copy -force /root/base_zc706/base_zc706.runs/impl_1/Z_system_wrapper.sysdef /root/base_zc706/base_zc706.sdk/Z_system_wrapper.hdf
+
+regenerate_bd_layout
+launch_sdk -workspace /root/base_zc706/base_zc706.sdk -hwspec /root/base_zc706/base_zc706.sdk/Z_system_wrapper.hdf

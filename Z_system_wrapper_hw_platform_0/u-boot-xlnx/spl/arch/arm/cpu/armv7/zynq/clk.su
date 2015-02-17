@@ -1,0 +1,14 @@
+clk.c:114:22:ddr2x_get_rate	8	static
+clk.c:127:22:ddr3x_get_rate	8	static
+clk.c:284:22:zynq_clk_periph_get_rate	8	static
+clk.c:472:22:__zynq_clk_pll_get_rate	0	static
+clk.c:491:22:zynq_clk_pll_get_rate	0	static
+clk.c:248:12:zynq_clk_periph_set_rate	48	static
+clk.c:345:12:zynq_clk_register_periph_clk	8	static
+clk.c:538:6:zynq_clk_early_init	8	static
+clk.c:561:15:get_uart_clk	8	static
+clk.c:584:5:set_cpu_clk_info	24	static
+clk.c:610:15:zynq_clk_get_rate	0	static
+clk.c:625:5:zynq_clk_set_rate	8	static
+clk.c:641:13:zynq_clk_get_name	0	static
+clk.c:652:5:soc_clk_dump	16	static

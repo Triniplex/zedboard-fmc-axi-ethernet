@@ -1,0 +1,359 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (lin64) Build 1071353 Tue Nov 18 16:47:07 MST 2014
+| Date         : Fri Feb 13 20:26:23 2015
+| Host         : ubuntu running 64-bit Ubuntu 14.04.1 LTS
+| Command      : report_clock_utilization -file Z_system_wrapper_clock_utilization_placed.rpt
+| Design       : Z_system_wrapper
+| Device       : xc7z045
+----------------------------------------------------------------------------------------------
+
+Clock Utilization Report
+
+Table of Contents
+-----------------
+1. Clock Primitive Utilization
+2. Details of Global Clocks
+3. Details of Regional Clocks
+4. Details of Multi-Regional Clocks
+5. Details of I/O Clocks
+6. Details of Local Clocks
+7. Clock Regions : Key Resource Utilization
+8. Net wise resources used in clock region X0Y0
+9. Net wise resources used in clock region X0Y1
+10. Net wise resources used in clock region X0Y2
+11. Net wise resources used in clock region X1Y2
+12. Net wise resources used in clock region X0Y3
+13. Net wise resources used in clock region X1Y3
+14. Net wise resources used in clock region X0Y4
+15. Net wise resources used in clock region X1Y4
+16. Net wise resources used in clock region X0Y5
+17. Net wise resources used in clock region X0Y6
+
+1. Clock Primitive Utilization
+------------------------------
+
++-------+------+-----------+-----------+
+| Type  | Used | Available | Num Fixed |
++-------+------+-----------+-----------+
+| BUFG  |    5 |        32 |         0 |
+| BUFH  |    0 |       168 |         0 |
+| BUFIO |    4 |        32 |         4 |
+| MMCM  |    1 |         8 |         0 |
+| PLL   |    0 |         8 |         0 |
+| BUFR  |    4 |        32 |         0 |
+| BUFMR |    0 |        16 |         0 |
++-------+------+-----------+-----------+
+
+
+2. Details of Global Clocks
+---------------------------
+
++-------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------+-------+---------------+-----------+
+|       |                                                                                                  |                                                                                                    |   Num Loads   |       |               |           |
++-------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+-------+-------+-------+---------------+-----------+
+| Index | BUFG Cell                                                                                        | Net Name                                                                                           |  BELs | Sites | Fixed | MaxDelay (ns) | Skew (ns) |
++-------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+-------+-------+-------+---------------+-----------+
+|     1 | Z_system_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG                           | Z_system_i/processing_system7_0/inst/FCLK_CLK1                                                     |    12 |     6 |    no |         1.617 |     1.617 |
+|     2 | Z_system_i/util_ds_buf_0/IBUF_OUT_BUFG[0]_inst                                                   | Z_system_i/util_ds_buf_0/IBUF_OUT[0]                                                               |    88 |    27 |    no |         1.805 |     0.578 |
+|     3 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/clkout2_buf | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/gtx_clk90_out |   148 |    47 |    no |         1.835 |     0.536 |
+|     4 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/clkout1_buf | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/tx_mac_aclk   |  7265 |  1986 |    no |         1.835 |     0.626 |
+|     5 | Z_system_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG                           | Z_system_i/processing_system7_0/inst/FCLK_CLK0                                                     | 29985 |  8997 |    no |         1.845 |     0.658 |
++-------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+-------+-------+-------+---------------+-----------+
+
+
++-------+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+--------------+-------+---------------+-----------+
+|       |                                                                                                    |                                                                                               |   Num Loads  |       |               |           |
++-------+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+------+-------+-------+---------------+-----------+
+| Index | MMCM Cell                                                                                          | Net Name                                                                                      | BELs | Sites | Fixed | MaxDelay (ns) | Skew (ns) |
++-------+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+------+-------+-------+---------------+-----------+
+|     1 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/mmcm_adv_inst | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/clkfbout |    1 |     1 |    no |         0.012 |     0.001 |
+|     2 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/mmcm_adv_inst | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/clkout0  |    1 |     1 |    no |         2.162 |     0.108 |
+|     3 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/mmcm_adv_inst | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/clkout1  |    1 |     1 |    no |         2.162 |     0.108 |
++-------+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+------+-------+-------+---------------+-----------+
+
+
+3. Details of Regional Clocks
+-----------------------------
+
++-------+-------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+--------------+-------+---------------+-----------+
+|       |                                                                                                       |                                                                                        |   Num Loads  |       |               |           |
++-------+-------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+------+-------+-------+---------------+-----------+
+| Index | BUFR Cell                                                                                             | Net Name                                                                               | BELs | Sites | Fixed | MaxDelay (ns) | Skew (ns) |
++-------+-------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+------+-------+-------+---------------+-----------+
+|     1 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_i/rgmii_interface/bufr_rgmii_rx_clk | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_i/rgmii_interface/O1 | 1449 |   394 |    no |         0.798 |     0.158 |
+|     2 | Z_system_i/axi_ethernet_1/inst/eth_mac/inst/rgmii_interface/bufr_rgmii_rx_clk                         | Z_system_i/axi_ethernet_1/inst/eth_mac/inst/rgmii_interface/O1                         | 1449 |   401 |    no |         0.807 |     0.217 |
+|     3 | Z_system_i/axi_ethernet_2/inst/eth_mac/inst/rgmii_interface/bufr_rgmii_rx_clk                         | Z_system_i/axi_ethernet_2/inst/eth_mac/inst/rgmii_interface/O1                         | 1449 |   405 |    no |         0.785 |     0.204 |
+|     4 | Z_system_i/axi_ethernet_3/inst/eth_mac/inst/rgmii_interface/bufr_rgmii_rx_clk                         | Z_system_i/axi_ethernet_3/inst/eth_mac/inst/rgmii_interface/O1                         | 1449 |   387 |    no |         0.800 |     0.213 |
++-------+-------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+------+-------+-------+---------------+-----------+
+
+
+4. Details of Multi-Regional Clocks
+-----------------------------------
+
+5. Details of I/O Clocks
+------------------------
+
++-------+--------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+--------------+-------+---------------+-----------+
+|       |                                                                                                        |                                                                                                        |   Num Loads  |       |               |           |
++-------+--------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+------+-------+-------+---------------+-----------+
+| Index | BUFIO Cell                                                                                             | Net Name                                                                                               | BELs | Sites | Fixed | MaxDelay (ns) | Skew (ns) |
++-------+--------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+------+-------+-------+---------------+-----------+
+|     1 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_i/rgmii_interface/bufio_rgmii_rx_clk | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_i/rgmii_interface/rgmii_rx_clk_bufio |    5 |     5 |   yes |         0.600 |     0.061 |
+|     2 | Z_system_i/axi_ethernet_1/inst/eth_mac/inst/rgmii_interface/bufio_rgmii_rx_clk                         | Z_system_i/axi_ethernet_1/inst/eth_mac/inst/rgmii_interface/rgmii_rx_clk_bufio                         |    5 |     5 |   yes |         0.603 |     0.064 |
+|     3 | Z_system_i/axi_ethernet_2/inst/eth_mac/inst/rgmii_interface/bufio_rgmii_rx_clk                         | Z_system_i/axi_ethernet_2/inst/eth_mac/inst/rgmii_interface/rgmii_rx_clk_bufio                         |    5 |     5 |   yes |         0.605 |     0.059 |
+|     4 | Z_system_i/axi_ethernet_3/inst/eth_mac/inst/rgmii_interface/bufio_rgmii_rx_clk                         | Z_system_i/axi_ethernet_3/inst/eth_mac/inst/rgmii_interface/rgmii_rx_clk_bufio                         |    5 |     5 |   yes |         0.603 |     0.064 |
++-------+--------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+------+-------+-------+---------------+-----------+
+
+
+6. Details of Local Clocks
+--------------------------
+
+7. Clock Regions : Key Resource Utilization
+-------------------------------------------
+
++-------------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+---------------+--------------+--------------+--------------+--------------+
+|                   | Global Clock |     BUFRs    |    BUFMRs    |    BUFIOs    |     MMCM     |      PLL     |      GT      |      PCI     |    ILOGIC    |    OLOGIC    |       FF      |     LUTM     |    RAMB18    |    RAMB36    |    DSP48E1   |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+-------+-------+------+-------+------+-------+------+-------+------+-------+
+| Clock Region Name | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |  Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+-------+-------+------+-------+------+-------+------+-------+------+-------+
+| X0Y0              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    1 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |     7 | 36000 |    0 |  6400 |    0 |    80 |    0 |    40 |    0 |    80 |
+| X1Y0              |    0 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     5 |    0 |     0 |    0 |     0 |    0 |     0 |     0 | 29600 |    0 |  4200 |    0 |    80 |    0 |    40 |    0 |    60 |
+| X0Y1              |    5 |    12 |    2 |     4 |    0 |     2 |    2 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |   10 |    50 |   12 |    50 |  3441 | 36000 |  345 |  6400 |    0 |    80 |    4 |    40 |    0 |    80 |
+| X1Y1              |    0 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     5 |    0 |     0 |    0 |     0 |    0 |     0 |     0 | 29600 |    0 |  4200 |    0 |    80 |    0 |    40 |    0 |    60 |
+| X0Y2              |    4 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  6342 | 36000 |  456 |  6400 |    0 |    80 |    1 |    40 |    0 |    80 |
+| X1Y2              |    2 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     5 |    0 |     0 |    0 |     0 |    0 |     0 |   515 | 29600 |    2 |  4200 |    0 |    80 |    2 |    40 |    0 |    60 |
+| X0Y3              |    4 |    12 |    2 |     4 |    0 |     2 |    2 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |   10 |    50 |   12 |    50 | 12560 | 36000 | 1248 |  6400 |    1 |    80 |    5 |    40 |    0 |    80 |
+| X1Y3              |    2 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     5 |    0 |     1 |    0 |     0 |    0 |     0 |  6296 | 28400 |  123 |  4000 |    2 |    70 |    5 |    35 |    0 |    60 |
+| X0Y4              |    3 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  7229 | 36000 |  428 |  6400 |    1 |    80 |    2 |    40 |    0 |    80 |
+| X1Y4              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  3352 | 32800 |  193 |  4600 |    0 |   100 |    1 |    50 |    0 |    60 |
+| X0Y5              |    1 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |   602 | 25600 |   62 |  4000 |    0 |    40 |    0 |    20 |    0 |    40 |
+| X1Y5              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |     0 | 28000 |    0 |  4600 |    0 |   100 |    0 |    50 |    0 |    60 |
+| X0Y6              |    1 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    18 | 25600 |    7 |  4000 |    0 |    40 |    0 |    20 |    0 |    40 |
+| X1Y6              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |     0 | 28000 |    0 |  4600 |    0 |   100 |    0 |    50 |    0 |    60 |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+-------+-------+------+-------+------+-------+------+-------+------+-------+
+* RAMB36 site can be used as two RAMB18/FIFO18 sites
+
+
+8. Net wise resources used in clock region X0Y0
+-----------------------------------------------
+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+--------------------------------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s |            Clock Net Name            |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+--------------------------------------+
+| BUFG        |     ---     |   no  |         1 |        0 |       0 |         0 |       0 |       0 |   7 |     0 |        0 | Z_system_i/util_ds_buf_0/IBUF_OUT[0] |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+--------------------------------------+
+
+
+9. Net wise resources used in clock region X0Y1
+-----------------------------------------------
+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+--------------------------------------------------------------------------------------------------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |                                             Clock Net Name                                             |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+--------------------------------------------------------------------------------------------------------+
+| BUFIO       |     ---     |  yes  |         0 |        0 |       0 |         0 |       5 |       0 |    0 |     0 |        0 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_i/rgmii_interface/rgmii_rx_clk_bufio |
+| BUFIO       |     ---     |  yes  |         0 |        0 |       0 |         0 |       5 |       0 |    0 |     0 |        0 | Z_system_i/axi_ethernet_1/inst/eth_mac/inst/rgmii_interface/rgmii_rx_clk_bufio                         |
+| BUFG        |     ---     |   no  |         0 |        0 |       0 |         0 |       0 |       0 |    5 |     0 |        0 | Z_system_i/util_ds_buf_0/IBUF_OUT[0]                                                                   |
+| BUFG        |     ---     |   no  |         0 |        0 |       0 |         0 |       0 |       0 |   10 |     0 |        0 | Z_system_i/processing_system7_0/inst/FCLK_CLK1                                                         |
+| BUFGCTRL    |     ---     |   no  |         0 |        0 |       0 |         0 |       0 |       2 |   41 |     0 |        0 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/gtx_clk90_out     |
+| BUFG        |     ---     |   no  |         0 |        0 |       0 |         4 |       0 |       0 |  171 |   268 |        0 | Z_system_i/processing_system7_0/inst/FCLK_CLK0                                                         |
+| BUFGCTRL    |     ---     |   no  |         0 |        0 |       0 |         0 |       0 |      10 |  396 |     1 |        0 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/tx_mac_aclk       |
+| BUFR        |     ---     |   no  |         0 |        0 |       0 |         2 |       0 |       0 | 1409 |    38 |        0 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_i/rgmii_interface/O1                 |
+| BUFR        |     ---     |   no  |         0 |        0 |       0 |         2 |       0 |       0 | 1409 |    38 |        0 | Z_system_i/axi_ethernet_1/inst/eth_mac/inst/rgmii_interface/O1                                         |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+--------------------------------------------------------------------------------------------------------+
+
+
+10. Net wise resources used in clock region X0Y2
+------------------------------------------------
+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------------------------------------------------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |                                           Clock Net Name                                           |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------------------------------------------------------+
+| BUFGCTRL    |     ---     |   no  |         0 |        0 |       0 |         0 |       0 |       0 |   31 |     0 |        0 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/gtx_clk90_out |
+| BUFG        |     ---     |   no  |         0 |        0 |       0 |         0 |       0 |       0 |   74 |     1 |        0 | Z_system_i/util_ds_buf_0/IBUF_OUT[0]                                                               |
+| BUFGCTRL    |     ---     |   no  |         0 |        0 |       0 |         1 |       0 |       0 | 2738 |   307 |        0 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/tx_mac_aclk   |
+| BUFG        |     ---     |   no  |         0 |        0 |       0 |         1 |       0 |       0 | 3499 |   148 |        0 | Z_system_i/processing_system7_0/inst/FCLK_CLK0                                                     |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------------------------------------------------------+
+
+
+11. Net wise resources used in clock region X1Y2
+------------------------------------------------
+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+--------------------------------------------------------------------------------------------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s |                                          Clock Net Name                                          |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+--------------------------------------------------------------------------------------------------+
+| BUFG        |     ---     |   no  |         0 |        0 |       0 |         2 |       0 |       0 | 232 |     0 |        0 | Z_system_i/processing_system7_0/inst/FCLK_CLK0                                                   |
+| BUFGCTRL    |     ---     |   no  |         0 |        0 |       0 |         2 |       0 |       0 | 283 |     2 |        0 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/tx_mac_aclk |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+--------------------------------------------------------------------------------------------------+
+
+
+12. Net wise resources used in clock region X0Y3
+------------------------------------------------
+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------------------------------------------------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |                                           Clock Net Name                                           |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------------------------------------------------------+
+| BUFIO       |     ---     |  yes  |         0 |        0 |       0 |         0 |       5 |       0 |    0 |     0 |        0 | Z_system_i/axi_ethernet_2/inst/eth_mac/inst/rgmii_interface/rgmii_rx_clk_bufio                     |
+| BUFIO       |     ---     |  yes  |         0 |        0 |       0 |         0 |       5 |       0 |    0 |     0 |        0 | Z_system_i/axi_ethernet_3/inst/eth_mac/inst/rgmii_interface/rgmii_rx_clk_bufio                     |
+| BUFGCTRL    |     ---     |   no  |         0 |        0 |       0 |         0 |       0 |       2 |   41 |     0 |        0 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/gtx_clk90_out |
+| BUFR        |     ---     |   no  |         0 |        0 |       0 |         2 |       0 |       0 | 1409 |    38 |        0 | Z_system_i/axi_ethernet_2/inst/eth_mac/inst/rgmii_interface/O1                                     |
+| BUFR        |     ---     |   no  |         0 |        0 |       0 |         2 |       0 |       0 | 1409 |    38 |        0 | Z_system_i/axi_ethernet_3/inst/eth_mac/inst/rgmii_interface/O1                                     |
+| BUFGCTRL    |     ---     |   no  |         0 |        0 |       0 |         1 |       0 |      10 | 1655 |   214 |        0 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/tx_mac_aclk   |
+| BUFG        |     ---     |   no  |         0 |        0 |       0 |         7 |       0 |       0 | 8046 |   958 |        0 | Z_system_i/processing_system7_0/inst/FCLK_CLK0                                                     |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------------------------------------------------------+
+
+
+13. Net wise resources used in clock region X1Y3
+------------------------------------------------
+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+--------------------------------------------------------------------------------------------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |                                          Clock Net Name                                          |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+--------------------------------------------------------------------------------------------------+
+| BUFGCTRL    |     ---     |   no  |         0 |        0 |       0 |         2 |       0 |       0 |   79 |     0 |        0 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/tx_mac_aclk |
+| BUFG        |     ---     |   no  |         0 |        0 |       0 |        12 |       0 |       0 | 6217 |   123 |        0 | Z_system_i/processing_system7_0/inst/FCLK_CLK0                                                   |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+--------------------------------------------------------------------------------------------------+
+
+
+14. Net wise resources used in clock region X0Y4
+------------------------------------------------
+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------------------------------------------------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |                                           Clock Net Name                                           |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------------------------------------------------------+
+| BUFGCTRL    |     ---     |   no  |         0 |        0 |       0 |         0 |       0 |       0 |   31 |     0 |        0 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/gtx_clk90_out |
+| BUFGCTRL    |     ---     |   no  |         0 |        0 |       0 |         2 |       0 |       0 | 1467 |    95 |        0 | Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/tx_mac_aclk   |
+| BUFG        |     ---     |   no  |         0 |        0 |       0 |         4 |       0 |       0 | 5731 |   333 |        0 | Z_system_i/processing_system7_0/inst/FCLK_CLK0                                                     |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+----------------------------------------------------------------------------------------------------+
+
+
+15. Net wise resources used in clock region X1Y4
+------------------------------------------------
+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+------------------------------------------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs |  FFs | LUTMs | DSP48E1s |                 Clock Net Name                 |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+------------------------------------------------+
+| BUFG        |     ---     |   no  |         0 |        0 |       0 |         2 |       0 |       0 | 3352 |   193 |        0 | Z_system_i/processing_system7_0/inst/FCLK_CLK0 |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+------+-------+----------+------------------------------------------------+
+
+
+16. Net wise resources used in clock region X0Y5
+------------------------------------------------
+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+------------------------------------------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s |                 Clock Net Name                 |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+------------------------------------------------+
+| BUFG        |     ---     |   no  |         0 |        0 |       0 |         0 |       0 |       0 | 602 |    62 |        0 | Z_system_i/processing_system7_0/inst/FCLK_CLK0 |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+------------------------------------------------+
+
+
+17. Net wise resources used in clock region X0Y6
+------------------------------------------------
+
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+------------------------------------------------+
+| Source Type | BUFHCE Site | Fixed | MMCM Pins | PLL Pins | GT Pins | BRAM Pins | ILOGICs | OLOGICs | FFs | LUTMs | DSP48E1s |                 Clock Net Name                 |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+------------------------------------------------+
+| BUFG        |     ---     |   no  |         0 |        0 |       0 |         0 |       0 |       0 |  18 |     7 |        0 | Z_system_i/processing_system7_0/inst/FCLK_CLK0 |
++-------------+-------------+-------+-----------+----------+---------+-----------+---------+---------+-----+-------+----------+------------------------------------------------+
+
+
+
+# Location of BUFG Primitives 
+set_property LOC BUFGCTRL_X0Y1 [get_cells Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/clkout2_buf]
+set_property LOC BUFGCTRL_X0Y0 [get_cells Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/clkout1_buf]
+set_property LOC BUFGCTRL_X0Y16 [get_cells Z_system_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG]
+set_property LOC BUFGCTRL_X0Y17 [get_cells Z_system_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG]
+set_property LOC BUFGCTRL_X0Y2 [get_cells Z_system_i/util_ds_buf_0/IBUF_OUT_BUFG[0]_inst]
+
+# Location of IO Clock Primitives
+set_property LOC BUFIO_X0Y7 [get_cells Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_i/rgmii_interface/bufio_rgmii_rx_clk]
+set_property LOC BUFIO_X0Y4 [get_cells Z_system_i/axi_ethernet_1/inst/eth_mac/inst/rgmii_interface/bufio_rgmii_rx_clk]
+set_property LOC BUFIO_X0Y15 [get_cells Z_system_i/axi_ethernet_2/inst/eth_mac/inst/rgmii_interface/bufio_rgmii_rx_clk]
+set_property LOC BUFIO_X0Y12 [get_cells Z_system_i/axi_ethernet_3/inst/eth_mac/inst/rgmii_interface/bufio_rgmii_rx_clk]
+
+# Location of MMCM Clock Primitives
+set_property LOC MMCME2_ADV_X0Y0 [get_cells Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/mmcm_adv_inst]
+
+# Location of BUFH Clock Primitives
+
+# Location of BUFR Clock Primitives
+set_property LOC BUFR_X0Y4 [get_cells Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_i/rgmii_interface/bufr_rgmii_rx_clk]
+set_property LOC BUFR_X0Y5 [get_cells Z_system_i/axi_ethernet_1/inst/eth_mac/inst/rgmii_interface/bufr_rgmii_rx_clk]
+set_property LOC BUFR_X0Y12 [get_cells Z_system_i/axi_ethernet_2/inst/eth_mac/inst/rgmii_interface/bufr_rgmii_rx_clk]
+set_property LOC BUFR_X0Y13 [get_cells Z_system_i/axi_ethernet_3/inst/eth_mac/inst/rgmii_interface/bufr_rgmii_rx_clk]
+
+# Location of BUFMR Clock Primitives
+
+# Location of PLL Clock Primitives
+
+# Location of IO Primitives which is load of clock spine
+
+# Location of clock ports
+set_property LOC IOB_X0Y73 [get_ports ref_clk_n[0]]
+set_property LOC IOB_X0Y74 [get_ports ref_clk_p[0]]
+set_property LOC IOB_X0Y78 [get_ports rgmii_port_0_rxc]
+set_property LOC IOB_X0Y72 [get_ports rgmii_port_1_rxc]
+set_property LOC IOB_X0Y178 [get_ports rgmii_port_2_rxc]
+set_property LOC IOB_X0Y172 [get_ports rgmii_port_3_rxc]
+
+# Clock net "Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_i/rgmii_interface/O1" driven by instance "Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_i/rgmii_interface/bufr_rgmii_rx_clk" located at site "BUFR_X0Y4"
+#startgroup
+create_pblock CLKAG_Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_i/rgmii_interface/O1
+add_cells_to_pblock [get_pblocks  CLKAG_Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_i/rgmii_interface/O1] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_i/rgmii_interface/O1"}]]]
+resize_pblock [get_pblocks CLKAG_Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_i/rgmii_interface/O1] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+#endgroup
+
+# Clock net "Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/gtx_clk90_out" driven by instance "Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/clkout2_buf" located at site "BUFGCTRL_X0Y1"
+#startgroup
+create_pblock CLKAG_Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/gtx_clk90_out
+add_cells_to_pblock [get_pblocks  CLKAG_Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/gtx_clk90_out] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/gtx_clk90_out"}]]]
+resize_pblock [get_pblocks CLKAG_Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/gtx_clk90_out] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X0Y4:CLOCKREGION_X0Y4 CLOCKREGION_X0Y5:CLOCKREGION_X0Y5 CLOCKREGION_X0Y6:CLOCKREGION_X0Y6 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3 CLOCKREGION_X1Y4:CLOCKREGION_X1Y4 CLOCKREGION_X1Y5:CLOCKREGION_X1Y5 CLOCKREGION_X1Y6:CLOCKREGION_X1Y6}
+#endgroup
+
+# Clock net "Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/tx_mac_aclk" driven by instance "Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/clkout1_buf" located at site "BUFGCTRL_X0Y0"
+#startgroup
+create_pblock CLKAG_Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/tx_mac_aclk
+add_cells_to_pblock [get_pblocks  CLKAG_Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/tx_mac_aclk] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/tx_mac_aclk"}]]]
+resize_pblock [get_pblocks CLKAG_Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/tx_mac_aclk] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X0Y4:CLOCKREGION_X0Y4 CLOCKREGION_X0Y5:CLOCKREGION_X0Y5 CLOCKREGION_X0Y6:CLOCKREGION_X0Y6 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3 CLOCKREGION_X1Y4:CLOCKREGION_X1Y4 CLOCKREGION_X1Y5:CLOCKREGION_X1Y5 CLOCKREGION_X1Y6:CLOCKREGION_X1Y6}
+#endgroup
+
+# Clock net "Z_system_i/axi_ethernet_1/inst/eth_mac/inst/rgmii_interface/O1" driven by instance "Z_system_i/axi_ethernet_1/inst/eth_mac/inst/rgmii_interface/bufr_rgmii_rx_clk" located at site "BUFR_X0Y5"
+#startgroup
+create_pblock CLKAG_Z_system_i/axi_ethernet_1/inst/eth_mac/inst/rgmii_interface/O1
+add_cells_to_pblock [get_pblocks  CLKAG_Z_system_i/axi_ethernet_1/inst/eth_mac/inst/rgmii_interface/O1] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="Z_system_i/axi_ethernet_1/inst/eth_mac/inst/rgmii_interface/O1"}]]]
+resize_pblock [get_pblocks CLKAG_Z_system_i/axi_ethernet_1/inst/eth_mac/inst/rgmii_interface/O1] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+#endgroup
+
+# Clock net "Z_system_i/axi_ethernet_2/inst/eth_mac/inst/rgmii_interface/O1" driven by instance "Z_system_i/axi_ethernet_2/inst/eth_mac/inst/rgmii_interface/bufr_rgmii_rx_clk" located at site "BUFR_X0Y12"
+#startgroup
+create_pblock CLKAG_Z_system_i/axi_ethernet_2/inst/eth_mac/inst/rgmii_interface/O1
+add_cells_to_pblock [get_pblocks  CLKAG_Z_system_i/axi_ethernet_2/inst/eth_mac/inst/rgmii_interface/O1] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="Z_system_i/axi_ethernet_2/inst/eth_mac/inst/rgmii_interface/O1"}]]]
+resize_pblock [get_pblocks CLKAG_Z_system_i/axi_ethernet_2/inst/eth_mac/inst/rgmii_interface/O1] -add {CLOCKREGION_X0Y3:CLOCKREGION_X0Y3}
+#endgroup
+
+# Clock net "Z_system_i/axi_ethernet_3/inst/eth_mac/inst/rgmii_interface/O1" driven by instance "Z_system_i/axi_ethernet_3/inst/eth_mac/inst/rgmii_interface/bufr_rgmii_rx_clk" located at site "BUFR_X0Y13"
+#startgroup
+create_pblock CLKAG_Z_system_i/axi_ethernet_3/inst/eth_mac/inst/rgmii_interface/O1
+add_cells_to_pblock [get_pblocks  CLKAG_Z_system_i/axi_ethernet_3/inst/eth_mac/inst/rgmii_interface/O1] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="Z_system_i/axi_ethernet_3/inst/eth_mac/inst/rgmii_interface/O1"}]]]
+resize_pblock [get_pblocks CLKAG_Z_system_i/axi_ethernet_3/inst/eth_mac/inst/rgmii_interface/O1] -add {CLOCKREGION_X0Y3:CLOCKREGION_X0Y3}
+#endgroup
+
+# Clock net "Z_system_i/processing_system7_0/inst/FCLK_CLK0" driven by instance "Z_system_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG" located at site "BUFGCTRL_X0Y16"
+#startgroup
+create_pblock CLKAG_Z_system_i/processing_system7_0/inst/FCLK_CLK0
+add_cells_to_pblock [get_pblocks  CLKAG_Z_system_i/processing_system7_0/inst/FCLK_CLK0] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="Z_system_i/processing_system7_0/inst/FCLK_CLK0"}]]]
+resize_pblock [get_pblocks CLKAG_Z_system_i/processing_system7_0/inst/FCLK_CLK0] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X0Y4:CLOCKREGION_X0Y4 CLOCKREGION_X0Y5:CLOCKREGION_X0Y5 CLOCKREGION_X0Y6:CLOCKREGION_X0Y6 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3 CLOCKREGION_X1Y4:CLOCKREGION_X1Y4 CLOCKREGION_X1Y5:CLOCKREGION_X1Y5 CLOCKREGION_X1Y6:CLOCKREGION_X1Y6}
+#endgroup
+
+# Clock net "Z_system_i/processing_system7_0/inst/FCLK_CLK1" driven by instance "Z_system_i/processing_system7_0/inst/buffer_fclk_clk_1.FCLK_CLK_1_BUFG" located at site "BUFGCTRL_X0Y17"
+#startgroup
+create_pblock CLKAG_Z_system_i/processing_system7_0/inst/FCLK_CLK1
+add_cells_to_pblock [get_pblocks  CLKAG_Z_system_i/processing_system7_0/inst/FCLK_CLK1] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="Z_system_i/processing_system7_0/inst/FCLK_CLK1"}]]]
+resize_pblock [get_pblocks CLKAG_Z_system_i/processing_system7_0/inst/FCLK_CLK1] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X0Y4:CLOCKREGION_X0Y4 CLOCKREGION_X0Y5:CLOCKREGION_X0Y5 CLOCKREGION_X0Y6:CLOCKREGION_X0Y6 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3 CLOCKREGION_X1Y4:CLOCKREGION_X1Y4 CLOCKREGION_X1Y5:CLOCKREGION_X1Y5 CLOCKREGION_X1Y6:CLOCKREGION_X1Y6}
+#endgroup
+
+# Clock net "Z_system_i/util_ds_buf_0/IBUF_OUT[0]" driven by instance "Z_system_i/util_ds_buf_0/IBUF_OUT_BUFG[0]_inst" located at site "BUFGCTRL_X0Y2"
+#startgroup
+create_pblock CLKAG_Z_system_i/util_ds_buf_0/IBUF_OUT[0]
+add_cells_to_pblock [get_pblocks  CLKAG_Z_system_i/util_ds_buf_0/IBUF_OUT[0]] [get_cells  -filter { IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL && NAME!=Z_system_i/axi_ethernet_0/inst/eth_mac/inst/tri_mode_ethernet_mac_support_clocking_i/mmcm_adv_inst} -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="Z_system_i/util_ds_buf_0/IBUF_OUT[0]"}]]]
+resize_pblock [get_pblocks CLKAG_Z_system_i/util_ds_buf_0/IBUF_OUT[0]] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X0Y4:CLOCKREGION_X0Y4 CLOCKREGION_X0Y5:CLOCKREGION_X0Y5 CLOCKREGION_X0Y6:CLOCKREGION_X0Y6 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3 CLOCKREGION_X1Y4:CLOCKREGION_X1Y4 CLOCKREGION_X1Y5:CLOCKREGION_X1Y5 CLOCKREGION_X1Y6:CLOCKREGION_X1Y6}
+#endgroup

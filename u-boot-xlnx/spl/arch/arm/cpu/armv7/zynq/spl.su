@@ -1,0 +1,6 @@
+spl.c:32:6:spl_board_init	0	static
+spl.c:38:5:spl_boot_device	8	static
+spl.c:73:5:spl_boot_mode	0	static
+spl.c:80:5:spl_start_uboot	0	static
+spl.c:87:13:ps7_init	0	static
+spl.c:16:6:board_init_f	8	static

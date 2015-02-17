@@ -1,0 +1,3059 @@
+/*
+
+Vivado v2014.4 (64-bit)
+SW Build 1071353 on Tue Nov 18 16:47:07 MST 2014
+Process ID: 7139
+
+Current time: 	2/13/15 7:18:25 PM
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: NAME="Ubuntu"
+Version: 3.13.0-45-generic
+Architecture: amd64
+Available processors (cores): 4
+
+DISPLAY: localhost:10.0
+Screen size: 1920x1177
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.8.0_05 64-bit
+Java home: 	/opt/Xilinx/Vivado/2014.4/tps/lnx64/jre
+
+User name: 	root
+User directory: /root/zynq_linux_axiethernet_driver/linux-xlnx
+User country: 	US
+User language: 	en
+User locale: 	en_US
+Vivado preferences path: /root/.Xilinx/Vivado/2014.4/vivado.ini
+Vivado layouts directory: /root/.Xilinx/Vivado/2014.4/layouts/application
+
+GUI allocated memory:	149 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,802 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 31 MB (+29710kb) [00:00:05]
+// [Engine Memory]: 4,802 MB (+4883630kb) [00:00:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,807 MB. GUI used memory: 23 MB. Current time: 2/13/15 7:18:27 PM
+// [Engine Memory]: 4,807 MB (+5246kb) [00:00:10]
+selectList(PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, "/root/base_zc706/base_zc706.xpr", 1); // s:v (JViewport:JComponent, ch:JFrame)
+// cm:N (ch:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: IP_LOCK_CHANGE
+// [GUI Memory]: 34 MB (+3664kb) [00:00:15]
+// [Engine Memory]: 4,901 MB (+98361kb) [00:00:15]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 54 MB (+20801kb) [00:00:17]
+// [Engine Memory]: 4,958 MB (+59822kb) [00:00:17]
+// [Engine Memory]: 4,993 MB (+37445kb) [00:00:18]
+// [Engine Memory]: 5,030 MB (+38825kb) [00:00:20]
+// [GUI Memory]: 56 MB (+2247kb) [00:00:22]
+// [Engine Memory]: 5,038 MB (+8388kb) [00:00:22]
+// [GUI Memory]: 66 MB (+10495kb) [00:00:23]
+// [GUI Memory]: 70 MB (+3645kb) [00:00:24]
+// [Engine Memory]: 5,040 MB (+2097kb) [00:00:24]
+// Tcl Message: open_project /root/base_zc706/base_zc706.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/root/base_zc706/ip'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2014.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,050 MB. GUI used memory: 38 MB. Current time: 2/13/15 7:18:43 PM
+// [GUI Memory]: 80 MB (+10397kb) [00:00:27]
+// [Engine Memory]: 5,050 MB (+10493kb) [00:00:27]
+// [GUI Memory]: 86 MB (+6748kb) [00:00:27]
+// [GUI Memory]: 87 MB (+1009kb) [00:00:27]
+// [GUI Memory]: 88 MB (+1061kb) [00:00:27]
+// [GUI Memory]: 88 MB (+217kb) [00:00:27]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: base_zc706; location: /root/base_zc706; part: xc7z045ffg900-2
+// Tcl Message: open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:17 . Memory (MB): peak = 5842.426 ; gain = 228.645 ; free physical = 2943 ; free virtual = 7047 
+// Elapsed time: 17 seconds
+dismissDialog("Open Project"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Z_system_wrapper (Z_system_wrapper.v)]", 1); // u:k (I:JPanel, ch:JFrame)
+// [Engine Memory]: 5,052 MB (+2097kb) [00:00:34]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Z_system_wrapper (Z_system_wrapper.v), Z_system_i - Z_system (Z_system.bd)]", 2, true); // u:k (I:JPanel, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Z_system_wrapper (Z_system_wrapper.v), Z_system_i - Z_system (Z_system.bd), Z_system (Z_system.v)]", 3, true, false, false, false, false, true); // u:k (I:JPanel, ch:JFrame) - Double Click - Node
+// cm:N (ch:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 5,054 MB (+2101kb) [00:00:36]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: open_bd_design {/root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/Z_system.bd} 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:util_ds_buf:2.0 - util_ds_buf_0 Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - ref_clk_fsel Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - ref_clk_oe Adding component instance block -- xilinx.com:ip:idelay_ctrl:1.0 - idelay_ctrl_0 Successfully read diagram <Z_system> from BD file </root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/Z_system.bd> 
+// [Engine Memory]: 5,056 MB (+2097kb) [00:00:37]
+// [Engine Memory]: 5,064 MB (+7847kb) [00:00:39]
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,064 MB. GUI used memory: 47 MB. Current time: 2/13/15 7:19:00 PM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 5862.246 ; gain = 17.820 ; free physical = 3054 ; free virtual = 7007 
+dismissDialog("Open Block Design"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "zynq"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "ZYNQ7 Processing System ; xilinx.com:ip:processing_system7:5.5", 0, "ZYNQ7 Processing System", 0, false); // P:au (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "ZYNQ7 Processing System ; xilinx.com:ip:processing_system7:5.5", 0); // P:au (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "ZYNQ7 Processing System ; xilinx.com:ip:processing_system7:5.5", 0, "ZYNQ7 Processing System", 0, false, false, false, false, false, true); // P:au (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0 
+// cm:N (ch:JFrame):  Add IP : addNotify
+// [Engine Memory]: 5,073 MB (+9441kb) [00:00:54]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 5,075 MB (+2093kb) [00:00:57]
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// cm:N (ch:JFrame):  Re-customize IP : addNotify
+// q:N (ch:JFrame): Re-customize IP: addNotify
+// cm:ac (q:N): Configuration Presets: addNotify
+// [Engine Memory]: 5,087 MB (+12591kb) [00:01:00]
+dismissDialog("Re-customize IP"); // cm:N (ch:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,096 MB. GUI used memory: 55 MB. Current time: 2/13/15 7:19:22 PM
+// [Engine Memory]: 5,096 MB (+9441kb) [00:01:04]
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k:JideButton (ci:ButtonPanel, q:N)
+selectButton(PAResourceAtoD.CustomizeCoreDialog_PRESETS, "Presets"); // v:JideButton (CommandBar:DockableBar, q:N)
+selectMenuItem((HResource) null, "ZC706"); // Z:JMenuItem (ag:JPopupMenu, q:N)
+// cm:ac (q:N): Configuration Presets: addNotify
+// [Engine Memory]: 5,107 MB (+11538kb) [00:01:19]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, q:N)
+// Tcl Message: set_property -dict [list CONFIG.preset {ZC706}] [get_bd_cells processing_system7_0] 
+// cm:N (q:N):  Customize IP : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,121 MB. GUI used memory: 63 MB. Current time: 2/13/15 7:19:42 PM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// [Engine Memory]: 5,121 MB (+14716kb) [00:01:24]
+// TclEventType: RSB_PROPERTY_CHANGE
+dismissDialog("Customize IP"); // cm:N (q:N)
+// Elapsed time: 13 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 708, 64, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, Popup:JWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Delete"); // Z:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// [GUI Memory]: 91 MB (+3112kb) [00:01:40]
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_intf_ports FIXED_IO] 
+// [GUI Memory]: 92 MB (+496kb) [00:02:02]
+// Elapsed time: 36 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 709, 337, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, Popup:JWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Delete"); // Z:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// f:ad (ch:JFrame): Confirm Delete: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:ad)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// 'c' command handler elapsed time: 4 seconds
+// Tcl Message: startgroup 
+// Tcl Message: delete_bd_objs [get_bd_ports reset_port_3] [get_bd_ports reset_port_2] [get_bd_ports reset_port_1] [get_bd_ports reset_port_0] 
+// Tcl Message: delete_bd_objs [get_bd_intf_ports rgmii_port_2] [get_bd_intf_ports rgmii_port_1] [get_bd_intf_ports rgmii_port_0] [get_bd_intf_ports mdio_io_port_3] [get_bd_intf_ports PL_DDR3] [get_bd_intf_ports mdio_io_port_2] [get_bd_intf_ports mdio_io_port_1] [get_bd_intf_ports mdio_io_port_0] [get_bd_intf_ports rgmii_port_3] 
+// Tcl Message: endgroup 
+dismissDialog("Confirm Delete"); // f:ad (ch:JFrame)
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION, "Run Block Automation"); // h:k (JPanel:JComponent, ch:JFrame)
+// t:ac (ch:JFrame): Run Block Automation: addNotify
+// [Engine Memory]: 5,123 MB (+2097kb) [00:02:28]
+selectCheckBox((HResource) null, "pa.OptGroup_xilinx.com_bd_rule_processing_system7_apply_board_preset", false); // h:JCheckBox (JPanel:JComponent, t:ac): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ac)
+// [GUI Memory]: 92 MB (+324kb) [00:02:38]
+dismissDialog("Run Block Automation"); // t:ac (ch:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "0" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0] 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// cm:N (ch:JFrame):  Re-customize IP : addNotify
+// q:N (ch:JFrame): Re-customize IP: addNotify
+// cm:ac (q:N): Configuration Presets: addNotify
+// [Engine Memory]: 5,125 MB (+2097kb) [00:02:59]
+// Elapsed time: 20 seconds
+dismissDialog("Re-customize IP"); // cm:N (ch:JFrame)
+// [Engine Memory]: 5,130 MB (+5246kb) [00:03:02]
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k:JideButton (ci:ButtonPanel, q:N)
+// [GUI Memory]: 100 MB (+8963kb) [00:03:07]
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "GP Slave AXI Interface ; GP Slave AXI Interface ; GP Slave AXI Interface", 3); // aA:cv (JViewport:JComponent, q:N)
+selectTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "S AXI GP0 interface ; 0 ; Enables General purpose 32-bit AXI Slave interface 0", 4, "0", 1, false); // aA:cv (JViewport:JComponent, q:N)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, q:N)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// [GUI Memory]: 105 MB (+5203kb) [00:03:14]
+// [GUI Memory]: 106 MB (+546kb) [00:03:14]
+// [Engine Memory]: 5,132 MB (+2097kb) [00:03:14]
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.PCW_USE_S_AXI_GP0 {1}] [get_bd_cells processing_system7_0] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// cm:N (ch:JFrame):  Re-customize IP : addNotify
+// q:N (ch:JFrame): Re-customize IP: addNotify
+// cm:ac (q:N): Configuration Presets: addNotify
+// [Engine Memory]: 5,137 MB (+5246kb) [00:03:21]
+dismissDialog("Re-customize IP"); // cm:N (ch:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,142 MB. GUI used memory: 79 MB. Current time: 2/13/15 7:21:42 PM
+selectButton("Clock Configuration", "Clock Configuration"); // k:JideButton (ci:ButtonPanel, q:N)
+// [Engine Memory]: 5,142 MB (+5246kb) [00:03:25]
+expandTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks", 2); // A:cv (JViewport:JComponent, q:N)
+// Elapsed time: 12 seconds
+selectTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "FCLK_CLK0 ; IO PLL ; 50 ; 50.000000 ; 0.100000 : 250.000000 ; PL Fabric Clocks", 3, "50", 2, false); // A:cv (JViewport:JComponent, q:N)
+setText("PCW FPGA0 PERIPHERAL FREQMHZ", "100"); // N:an (aH:M)
+// Elapsed time: 254 seconds
+selectTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "FCLK_CLK1 ; IO PLL ; 50 ; 50.000000 ; 0.100000 : 250.000000 ; PL Fabric Clocks", 4, "FCLK_CLK1", 0, false); // A:cv (JViewport:JComponent, q:N)
+selectTreeTable(PAResourceAtoD.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "FCLK_CLK1 ; IO PLL ; 50 ; 50.000000 ; 0.100000 : 250.000000 ; PL Fabric Clocks", 4, "50", 2, false); // A:cv (JViewport:JComponent, q:N)
+setText("PCW FPGA1 PERIPHERAL FREQMHZ", "200"); // N:an (aH:M)
+selectButton("Interrupts", "Interrupts"); // k:JideButton (ci:ButtonPanel, q:N)
+expandTreeTable(PAResourceEtoH.GICTreeTablePanel_GIC_TREE_TABLE, "Fabric Interrupts ;  ; Enable PL Interrupts to PS and vice versa", 0); // an:cv (JViewport:JComponent, q:N)
+selectTreeTable(PAResourceEtoH.GICTreeTablePanel_GIC_TREE_TABLE, "Fabric Interrupts ;  ; Enable PL Interrupts to PS and vice versa", 0, "Fabric Interrupts", 0, true); // an:cv (JViewport:JComponent, q:N) - Node
+expandTreeTable(PAResourceEtoH.GICTreeTablePanel_GIC_TREE_TABLE, "PL-PS Interrupt Ports ; PL-PS Interrupt Ports ; PL-PS Interrupt Ports", 1); // an:cv (JViewport:JComponent, q:N)
+selectTreeTable(PAResourceEtoH.GICTreeTablePanel_GIC_TREE_TABLE, "IRQ_F2P[15:0] ; [91:84], [68:61] ; Enables 16-bit shared interrupt port from the PL. MSB is assigned the highest Interrupt ID of 91", 2, "IRQ_F2P[15:0]", 0, false); // an:cv (JViewport:JComponent, q:N)
+selectTreeTableHeader(PAResourceEtoH.GICTreeTablePanel_GIC_TREE_TABLE, "ID", 1); // an:cv (JViewport:JComponent, q:N)
+// Elapsed time: 15 seconds
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k:JideButton (ci:ButtonPanel, q:N)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "HP Slave AXI Interface ; HP Slave AXI Interface ; HP Slave AXI Interface", 4); // aA:cv (JViewport:JComponent, q:N)
+selectTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "S AXI HP0 interface ; 0 ; Enables AXI high performance slave interface 0", 5, "0", 1, true); // aA:cv (JViewport:JComponent, q:N) - Node
+// [GUI Memory]: 109 MB (+2808kb) [00:09:34]
+// Elapsed time: 48 seconds
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "GP Slave AXI Interface ; GP Slave AXI Interface ; GP Slave AXI Interface", 3); // aA:cv (JViewport:JComponent, q:N)
+selectTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "S AXI GP0 interface ; 1 ; Enables General purpose 32-bit AXI Slave interface 0", 4, "1", 1, false); // aA:cv (JViewport:JComponent, q:N)
+// Elapsed time: 32 seconds
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "GP Master AXI Interface ; GP Master AXI Interface ; GP Master AXI Interface", 2); // aA:cv (JViewport:JComponent, q:N)
+// [GUI Memory]: 109 MB (+126kb) [00:10:17]
+// [GUI Memory]: 110 MB (+1282kb) [00:10:22]
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, q:N)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.PCW_FPGA0_PERIPHERAL_FREQMHZ {100} CONFIG.PCW_FPGA1_PERIPHERAL_FREQMHZ {200} CONFIG.PCW_USE_S_AXI_GP0 {0} CONFIG.PCW_USE_S_AXI_HP0 {1} CONFIG.PCW_USE_FABRIC_INTERRUPT {1} CONFIG.PCW_EN_CLK1_PORT {1} CONFIG.PCW_IRQ_F2P_INTR {1}] [get_bd_cells processing_system7_0] 
+// Tcl Message: endgroup 
+// [Engine Memory]: 5,151 MB (+9437kb) [00:10:25]
+// Elapsed time: 20 seconds
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// [GUI Memory]: 114 MB (+4224kb) [00:10:44]
+// Tcl Message: regenerate_bd_layout 
+// Elapsed time: 10 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "axi eth"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Ethernet Subsystem ; xilinx.com:ip:axi_ethernet:6.2", 2, "AXI Ethernet Subsystem", 0, false); // P:au (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Ethernet Subsystem ; xilinx.com:ip:axi_ethernet:6.2", 2); // P:au (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Ethernet Subsystem ; xilinx.com:ip:axi_ethernet:6.2", 2, "AXI Ethernet Subsystem", 0, false, false, false, false, false, true); // P:au (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 117 MB (+3176kb) [00:11:03]
+// TclEventType: FILE_SET_CHANGE
+// cm:N (ch:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_ethernet:6.2 axi_ethernet_0 
+// Tcl Message: Wrote  : </root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/ip/Z_system_axi_ethernet_0_0/bd_0/bd_0.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: INFO: [Ipptcl 7-578] No Compatible Board Interface found.Board Tab not created 
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // cm:N (ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// q:N (ch:JFrame): Re-customize IP: addNotify
+// [GUI Memory]: 118 MB (+501kb) [00:11:07]
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Physical Interface", 1); // aG:g (H:JPanel, q:N)
+// [GUI Memory]: 119 MB (+1524kb) [00:11:12]
+selectComboBox("Physical Interface Selection (PHY_TYPE)", "RGMII", 2); // u:c (H:JPanel, q:N)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "MAC Features", 2); // aG:g (H:JPanel, q:N)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, q:N)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property -dict [list CONFIG.PHY_TYPE {RGMII}] [get_bd_cells axi_ethernet_0] 
+// Tcl Message: Wrote  : </root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/ip/Z_system_axi_ethernet_0_0/bd_0/bd_0.bd>  
+// TclEventType: DG_GRAPH_STALE
+// cm:N (q:N):  Customize IP : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: INFO: [Ipptcl 7-578] No Compatible Board Interface found.Board Tab not created 
+dismissDialog("Customize IP"); // cm:N (q:N)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION, "Run Block Automation"); // h:k (JPanel:JComponent, ch:JFrame)
+// t:ac (ch:JFrame): Run Block Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ac)
+// [GUI Memory]: 119 MB (+478kb) [00:11:28]
+dismissDialog("Run Block Automation"); // t:ac (ch:JFrame)
+// Tcl Message: startgroup 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi_ethernet -config {PHY_TYPE "RGMII" FIFO_DMA "DMA" }  [get_bd_cells axi_ethernet_0] 
+// Tcl Message: endgroup 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 120 MB (+692kb) [00:11:29]
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:k (JPanel:JComponent, ch:JFrame)
+// t:ac (ch:JFrame): Run Connection Automation: addNotify
+selectTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (0 out of 6 selected)]", 0, true); // H:a (JViewport:JComponent, t:ac) - Node
+selectTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (6 out of 6 selected)]", 0, true); // H:a (JViewport:JComponent, t:ac) - Node
+applyEnter(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, (String) null); // H:a (JViewport:JComponent, t:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ac)
+dismissDialog("Run Connection Automation"); // t:ac (ch:JFrame)
+// Tcl Message: startgroup 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/axi_ethernet_0_dma/M_AXI_SG" Clk "Auto" }  [get_bd_intf_pins processing_system7_0/S_AXI_HP0] 
+// cm:N (ch:JFrame):  Run Connection Automation : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 122 MB (+2186kb) [00:11:41]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </axi_ethernet_0_dma/Data_SG> at <0x00000000[ 1G ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_0/s_axi] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 5,153 MB (+2097kb) [00:11:43]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </axi_ethernet_0/s_axi/Reg> is being mapped into </processing_system7_0/Data> at <0x41000000[ 256K ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_0/mdio_io] 
+// Tcl Message: INFO: [board_rule:/axi_ethernet_0-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:mdio_io:1.0 mdio_io INFO: [board_rule:/axi_ethernet_0-100] connect_bd_intf_net /mdio_io /axi_ethernet_0/mdio_io 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_0/rgmii] 
+// Tcl Message: INFO: [board_rule:/axi_ethernet_0-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:rgmii_rtl:1.0 rgmii_rtl INFO: [board_rule:/axi_ethernet_0-100] connect_bd_intf_net /rgmii_rtl /axi_ethernet_0/rgmii 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [Ipptcl 7-578] No Compatible Board Interface found.Board Tab not created 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board -config {Board_Interface "Custom" }  [get_bd_pins axi_ethernet_0/phy_rst_n] 
+// Tcl Message: INFO: [board_rule:/axi_ethernet_0-100] set_property CONFIG.USE_BOARD_FLOW true [get_bd_cells /axi_ethernet_0] 
+// Tcl Message: Wrote  : </root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/ip/Z_system_axi_ethernet_0_0/bd_0/bd_0.bd>  
+// Tcl Message: INFO: [board_rule:/axi_ethernet_0-100] set_property CONFIG.PHYRST_BOARD_INTERFACE Custom [get_bd_cells /axi_ethernet_0] INFO: [board_rule:/axi_ethernet_0-100] create_bd_port -dir O reset_rtl -type rst INFO: [board_rule:/axi_ethernet_0-100] connect_bd_net /reset_rtl /axi_ethernet_0/phy_rst_n 
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 5,158 MB (+5537kb) [00:11:46]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_0_dma/S_AXI_LITE] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 5,161 MB (+3145kb) [00:11:48]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </axi_ethernet_0_dma/S_AXI_LITE/Reg> is being mapped into </processing_system7_0/Data> at <0x40400000[ 64K ]> 
+// Tcl Message: endgroup 
+// [GUI Memory]: 124 MB (+1566kb) [00:11:49]
+// Elapsed time: 10 seconds
+dismissDialog("Run Connection Automation"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:k (JPanel:JComponent, ch:JFrame)
+// t:ac (ch:JFrame): Run Connection Automation: addNotify
+selectTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (2 out of 2 selected)]", 0, true); // H:a (JViewport:JComponent, t:ac) - Node
+applyEnter(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, (String) null); // H:a (JViewport:JComponent, t:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ac)
+dismissDialog("Run Connection Automation"); // t:ac (ch:JFrame)
+// Tcl Message: startgroup 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// cm:N (ch:JFrame):  Run Connection Automation : addNotify
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_0_dma/M_AXI_MM2S] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,178 MB. GUI used memory: 87 MB. Current time: 2/13/15 7:30:22 PM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 5,178 MB (+17829kb) [00:12:03]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </axi_ethernet_0_dma/Data_MM2S> at <0x00000000[ 1G ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_0_dma/M_AXI_S2MM] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </axi_ethernet_0_dma/Data_S2MM> at <0x00000000[ 1G ]> 
+// Tcl Message: endgroup 
+dismissDialog("Run Connection Automation"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 126 MB (+1975kb) [00:12:05]
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "axi eth"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Ethernet Subsystem ; xilinx.com:ip:axi_ethernet:6.2", 2, "AXI Ethernet Subsystem", 0, false); // P:au (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Ethernet Subsystem ; xilinx.com:ip:axi_ethernet:6.2", 2); // P:au (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Ethernet Subsystem ; xilinx.com:ip:axi_ethernet:6.2", 2, "AXI Ethernet Subsystem", 0, false, false, false, false, false, true); // P:au (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 5,188 MB (+10625kb) [00:12:18]
+// TclEventType: FILE_SET_CHANGE
+// cm:N (ch:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_ethernet:6.2 axi_ethernet_1 
+// Tcl Message: Wrote  : </root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/ip/Z_system_axi_ethernet_1_0/bd_1/bd_1.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// [Engine Memory]: 5,193 MB (+5242kb) [00:12:18]
+// [GUI Memory]: 126 MB (+766kb) [00:12:18]
+// [GUI Memory]: 127 MB (+780kb) [00:12:18]
+// [GUI Memory]: 128 MB (+780kb) [00:12:18]
+// [Engine Memory]: 5,195 MB (+2097kb) [00:12:18]
+// Tcl Message: INFO: [Ipptcl 7-578] No Compatible Board Interface found.Board Tab not created 
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 5,200 MB (+4440kb) [00:12:20]
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// q:N (ch:JFrame): Re-customize IP: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,200 MB. GUI used memory: 90 MB. Current time: 2/13/15 7:30:42 PM
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Physical Interface", 1); // aG:g (H:JPanel, q:N)
+selectComboBox("Physical Interface Selection (PHY_TYPE)", "RGMII", 2); // u:c (H:JPanel, q:N)
+// TclEventType: FILE_SET_CHANGE
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Shared Logic", 4); // aG:g (H:JPanel, q:N)
+selectRadioButton((HResource) null, "Include Shared Logic in IP Example Design"); // aw:a
+// Tcl Message: current_bd_design [get_bd_designs Z_system] 
+// Tcl Message: Wrote  : </root/zynq_linux_axiethernet_driver/linux-xlnx/.Xil/Vivado-7139-ubuntu/coregen/Z_system_axi_ethernet_1_0/bd_2/bd_2.bd>  
+// [Engine Memory]: 5,217 MB (+18259kb) [00:12:35]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, q:N)
+// TclEventType: FILE_SET_CHANGE
+// cm:N (q:N):  Customize IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.PHY_TYPE {RGMII} CONFIG.SupportLevel {0}] [get_bd_cells axi_ethernet_1] 
+// Tcl Message: Wrote  : </root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/ip/Z_system_axi_ethernet_1_0/bd_1/bd_1.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: INFO: [Ipptcl 7-578] No Compatible Board Interface found.Board Tab not created 
+// Tcl Message: endgroup 
+dismissDialog("Customize IP"); // cm:N (q:N)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION, "Run Block Automation"); // h:k (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 132 MB (+4277kb) [00:12:39]
+// t:ac (ch:JFrame): Run Block Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ac)
+dismissDialog("Run Block Automation"); // t:ac (ch:JFrame)
+// Tcl Message: startgroup 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi_ethernet -config {PHY_TYPE "RGMII" FIFO_DMA "DMA" }  [get_bd_cells axi_ethernet_1] 
+// Tcl Message: endgroup 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:k (JPanel:JComponent, ch:JFrame)
+// t:ac (ch:JFrame): Run Connection Automation: addNotify
+selectTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (8 out of 8 selected)]", 0, true); // H:a (JViewport:JComponent, t:ac) - Node
+applyEnter(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, (String) null); // H:a (JViewport:JComponent, t:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ac)
+dismissDialog("Run Connection Automation"); // t:ac (ch:JFrame)
+// Tcl Message: startgroup 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// cm:N (ch:JFrame):  Run Connection Automation : addNotify
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_1/s_axi] 
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 134 MB (+1799kb) [00:12:47]
+// Tcl Message: </axi_ethernet_1/s_axi/Reg> is being mapped into </processing_system7_0/Data> at <0x41040000[ 256K ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_1/mdio_io] 
+// Tcl Message: INFO: [board_rule:/axi_ethernet_1-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:mdio_io:1.0 mdio_io_0 INFO: [board_rule:/axi_ethernet_1-100] connect_bd_intf_net /mdio_io_0 /axi_ethernet_1/mdio_io 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_1/rgmii] 
+// Tcl Message: INFO: [board_rule:/axi_ethernet_1-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:rgmii_rtl:1.0 rgmii_rtl_0 INFO: [board_rule:/axi_ethernet_1-100] connect_bd_intf_net /rgmii_rtl_0 /axi_ethernet_1/rgmii 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board -config {Board_Interface "Custom" }  [get_bd_pins axi_ethernet_1/phy_rst_n] 
+// Tcl Message: INFO: [board_rule:/axi_ethernet_1-100] set_property CONFIG.USE_BOARD_FLOW true [get_bd_cells /axi_ethernet_1] 
+// Tcl Message: Wrote  : </root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/ip/Z_system_axi_ethernet_1_0/bd_1/bd_1.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [Ipptcl 7-578] No Compatible Board Interface found.Board Tab not created 
+// Tcl Message: INFO: [board_rule:/axi_ethernet_1-100] set_property CONFIG.PHYRST_BOARD_INTERFACE Custom [get_bd_cells /axi_ethernet_1] INFO: [board_rule:/axi_ethernet_1-100] create_bd_port -dir O reset_rtl_0 -type rst INFO: [board_rule:/axi_ethernet_1-100] connect_bd_net /reset_rtl_0 /axi_ethernet_1/phy_rst_n 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_1_dma/S_AXI_LITE] 
+// Tcl Message: </axi_ethernet_1_dma/S_AXI_LITE/Reg> is being mapped into </processing_system7_0/Data> at <0x40410000[ 64K ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_1_dma/M_AXI_SG] 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </axi_ethernet_1_dma/Data_SG> at <0x00000000[ 1G ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_1_dma/M_AXI_MM2S] 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 134 MB (+35kb) [00:12:51]
+// [GUI Memory]: 134 MB (+828kb) [00:12:51]
+// [GUI Memory]: 136 MB (+1630kb) [00:12:51]
+// Tcl Message: </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </axi_ethernet_1_dma/Data_MM2S> at <0x00000000[ 1G ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_1_dma/M_AXI_S2MM] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </axi_ethernet_1_dma/Data_S2MM> at <0x00000000[ 1G ]> 
+// Tcl Message: endgroup 
+dismissDialog("Run Connection Automation"); // cm:N (ch:JFrame)
+// [Engine Memory]: 5,219 MB (+1662kb) [00:12:53]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "axi eth"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Ethernet Subsystem ; xilinx.com:ip:axi_ethernet:6.2", 2, "AXI Ethernet Subsystem", 0, false); // P:au (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Ethernet Subsystem ; xilinx.com:ip:axi_ethernet:6.2", 2, "AXI Ethernet Subsystem", 0, false); // P:au (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Ethernet Subsystem ; xilinx.com:ip:axi_ethernet:6.2", 2); // P:au (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Ethernet Subsystem ; xilinx.com:ip:axi_ethernet:6.2", 2, "AXI Ethernet Subsystem", 0, false, false, false, false, false, true); // P:au (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_ethernet:6.2 axi_ethernet_2 
+// Tcl Message: Wrote  : </root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/ip/Z_system_axi_ethernet_2_0/bd_2/bd_2.bd>  
+// TclEventType: FILE_SET_CHANGE
+// cm:N (ch:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// [GUI Memory]: 137 MB (+1122kb) [00:13:11]
+// Tcl Message: INFO: [Ipptcl 7-578] No Compatible Board Interface found.Board Tab not created 
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// q:N (ch:JFrame): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Physical Interface", 1); // aG:g (H:JPanel, q:N)
+selectComboBox("Physical Interface Selection (PHY_TYPE)", "RGMII", 2); // u:c (H:JPanel, q:N)
+// TclEventType: FILE_SET_CHANGE
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Shared Logic", 4); // aG:g (H:JPanel, q:N)
+selectRadioButton((HResource) null, "Include Shared Logic in IP Example Design"); // aw:a
+// Tcl Message: Wrote  : </root/zynq_linux_axiethernet_driver/linux-xlnx/.Xil/Vivado-7139-ubuntu/coregen/Z_system_axi_ethernet_2_0/bd_3/bd_3.bd>  
+// Tcl Message: current_bd_design [get_bd_designs Z_system] 
+// [Engine Memory]: 5,226 MB (+7815kb) [00:13:27]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, q:N)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,234 MB. GUI used memory: 94 MB. Current time: 2/13/15 7:31:47 PM
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 5,234 MB (+8650kb) [00:13:28]
+// cm:N (q:N):  Customize IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.PHY_TYPE {RGMII} CONFIG.SupportLevel {0}] [get_bd_cells axi_ethernet_2] 
+// Tcl Message: Wrote  : </root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/ip/Z_system_axi_ethernet_2_0/bd_2/bd_2.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// [Engine Memory]: 5,238 MB (+4046kb) [00:13:28]
+// [Engine Memory]: 5,268 MB (+31670kb) [00:13:28]
+// [Engine Memory]: 5,270 MB (+2039kb) [00:13:28]
+// [Engine Memory]: 5,272 MB (+2097kb) [00:13:28]
+// Tcl Message: INFO: [Ipptcl 7-578] No Compatible Board Interface found.Board Tab not created 
+// Tcl Message: endgroup 
+// [Engine Memory]: 5,273 MB (+1048kb) [00:13:29]
+dismissDialog("Customize IP"); // cm:N (q:N)
+// [Engine Memory]: 5,279 MB (+6291kb) [00:13:29]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION, "Run Block Automation"); // h:k (JPanel:JComponent, ch:JFrame)
+// t:ac (ch:JFrame): Run Block Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ac)
+dismissDialog("Run Block Automation"); // t:ac (ch:JFrame)
+// Tcl Message: startgroup 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 137 MB (+426kb) [00:13:34]
+// [GUI Memory]: 138 MB (+817kb) [00:13:34]
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi_ethernet -config {PHY_TYPE "RGMII" FIFO_DMA "DMA" }  [get_bd_cells axi_ethernet_2] 
+// cm:N (ch:JFrame):  Run Block Automation : addNotify
+// Tcl Message: endgroup 
+dismissDialog("Run Block Automation"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:k (JPanel:JComponent, ch:JFrame)
+// t:ac (ch:JFrame): Run Connection Automation: addNotify
+selectTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (8 out of 8 selected)]", 0, true); // H:a (JViewport:JComponent, t:ac) - Node
+applyEnter(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, (String) null); // H:a (JViewport:JComponent, t:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ac)
+dismissDialog("Run Connection Automation"); // t:ac (ch:JFrame)
+// Tcl Message: startgroup 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_2/s_axi] 
+// TclEventType: FILE_SET_CHANGE
+// cm:N (ch:JFrame):  Run Connection Automation : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </axi_ethernet_2/s_axi/Reg> is being mapped into </processing_system7_0/Data> at <0x41080000[ 256K ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_2/mdio_io] 
+// Tcl Message: INFO: [board_rule:/axi_ethernet_2-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:mdio_io:1.0 mdio_io_1 INFO: [board_rule:/axi_ethernet_2-100] connect_bd_intf_net /mdio_io_1 /axi_ethernet_2/mdio_io 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_2/rgmii] 
+// Tcl Message: INFO: [board_rule:/axi_ethernet_2-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:rgmii_rtl:1.0 rgmii_rtl_1 INFO: [board_rule:/axi_ethernet_2-100] connect_bd_intf_net /rgmii_rtl_1 /axi_ethernet_2/rgmii 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board -config {Board_Interface "Custom" }  [get_bd_pins axi_ethernet_2/phy_rst_n] 
+// Tcl Message: INFO: [board_rule:/axi_ethernet_2-100] set_property CONFIG.USE_BOARD_FLOW true [get_bd_cells /axi_ethernet_2] 
+// Tcl Message: Wrote  : </root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/ip/Z_system_axi_ethernet_2_0/bd_2/bd_2.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [Ipptcl 7-578] No Compatible Board Interface found.Board Tab not created 
+// Tcl Message: INFO: [board_rule:/axi_ethernet_2-100] set_property CONFIG.PHYRST_BOARD_INTERFACE Custom [get_bd_cells /axi_ethernet_2] INFO: [board_rule:/axi_ethernet_2-100] create_bd_port -dir O reset_rtl_0_1 -type rst INFO: [board_rule:/axi_ethernet_2-100] connect_bd_net /reset_rtl_0_1 /axi_ethernet_2/phy_rst_n 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_2_dma/S_AXI_LITE] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </axi_ethernet_2_dma/S_AXI_LITE/Reg> is being mapped into </processing_system7_0/Data> at <0x40420000[ 64K ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_2_dma/M_AXI_SG] 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </axi_ethernet_2_dma/Data_SG> at <0x00000000[ 1G ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_2_dma/M_AXI_MM2S] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </axi_ethernet_2_dma/Data_MM2S> at <0x00000000[ 1G ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_2_dma/M_AXI_S2MM] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 138 MB (+269kb) [00:13:50]
+// [GUI Memory]: 139 MB (+866kb) [00:13:50]
+// Tcl Message: </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </axi_ethernet_2_dma/Data_S2MM> at <0x00000000[ 1G ]> 
+// Tcl Message: endgroup 
+dismissDialog("Run Connection Automation"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "axi eth"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Ethernet Subsystem ; xilinx.com:ip:axi_ethernet:6.2", 2, "AXI Ethernet Subsystem", 0, false); // P:au (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Ethernet Subsystem ; xilinx.com:ip:axi_ethernet:6.2", 2); // P:au (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Ethernet Subsystem ; xilinx.com:ip:axi_ethernet:6.2", 2, "AXI Ethernet Subsystem", 0, false, false, false, false, false, true); // P:au (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_ethernet:6.2 axi_ethernet_3 
+// Tcl Message: Wrote  : </root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/ip/Z_system_axi_ethernet_3_0/bd_3/bd_3.bd>  
+// TclEventType: FILE_SET_CHANGE
+// cm:N (ch:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// [GUI Memory]: 140 MB (+666kb) [00:14:12]
+// Tcl Message: INFO: [Ipptcl 7-578] No Compatible Board Interface found.Board Tab not created 
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// q:N (ch:JFrame): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Physical Interface", 1); // aG:g (H:JPanel, q:N)
+selectComboBox("Physical Interface Selection (PHY_TYPE)", "RGMII", 2); // u:c (H:JPanel, q:N)
+// TclEventType: FILE_SET_CHANGE
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "MAC Features", 2); // aG:g (H:JPanel, q:N)
+// [GUI Memory]: 140 MB (+448kb) [00:14:23]
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Shared Logic", 4); // aG:g (H:JPanel, q:N)
+// [GUI Memory]: 141 MB (+969kb) [00:14:28]
+// TclEventType: FILE_SET_CHANGE
+selectRadioButton((HResource) null, "Include Shared Logic in IP Example Design"); // aw:a
+// Tcl Message: Wrote  : </root/zynq_linux_axiethernet_driver/linux-xlnx/.Xil/Vivado-7139-ubuntu/coregen/Z_system_axi_ethernet_3_0/bd_4/bd_4.bd>  
+// Tcl Message: current_bd_design [get_bd_designs Z_system] 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, q:N)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.PHY_TYPE {RGMII} CONFIG.SupportLevel {0}] [get_bd_cells axi_ethernet_3] 
+// Tcl Message: Wrote  : </root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/ip/Z_system_axi_ethernet_3_0/bd_3/bd_3.bd>  
+// TclEventType: FILE_SET_CHANGE
+// cm:N (q:N):  Customize IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: INFO: [Ipptcl 7-578] No Compatible Board Interface found.Board Tab not created 
+// Tcl Message: endgroup 
+dismissDialog("Customize IP"); // cm:N (q:N)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION, "Run Block Automation"); // h:k (JPanel:JComponent, ch:JFrame)
+// t:ac (ch:JFrame): Run Block Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ac)
+dismissDialog("Run Block Automation"); // t:ac (ch:JFrame)
+// Tcl Message: startgroup 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi_ethernet -config {PHY_TYPE "RGMII" FIFO_DMA "DMA" }  [get_bd_cells axi_ethernet_3] 
+// Tcl Message: endgroup 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 143 MB (+1537kb) [00:14:40]
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:k (JPanel:JComponent, ch:JFrame)
+// t:ac (ch:JFrame): Run Connection Automation: addNotify
+selectTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (8 out of 8 selected)]", 0, true); // H:a (JViewport:JComponent, t:ac) - Node
+applyEnter(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, (String) null); // H:a (JViewport:JComponent, t:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:ac)
+dismissDialog("Run Connection Automation"); // t:ac (ch:JFrame)
+// Tcl Message: startgroup 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// cm:N (ch:JFrame):  Run Connection Automation : addNotify
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_3/s_axi] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </axi_ethernet_3/s_axi/Reg> is being mapped into </processing_system7_0/Data> at <0x410C0000[ 256K ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_3/mdio_io] 
+// Tcl Message: INFO: [board_rule:/axi_ethernet_3-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:mdio_io:1.0 mdio_io_2 INFO: [board_rule:/axi_ethernet_3-100] connect_bd_intf_net /mdio_io_2 /axi_ethernet_3/mdio_io 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board  [get_bd_intf_pins axi_ethernet_3/rgmii] 
+// Tcl Message: INFO: [board_rule:/axi_ethernet_3-100] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:rgmii_rtl:1.0 rgmii_rtl_2 INFO: [board_rule:/axi_ethernet_3-100] connect_bd_intf_net /rgmii_rtl_2 /axi_ethernet_3/rgmii 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board -config {Board_Interface "Custom" }  [get_bd_pins axi_ethernet_3/phy_rst_n] 
+// Tcl Message: INFO: [board_rule:/axi_ethernet_3-100] set_property CONFIG.USE_BOARD_FLOW true [get_bd_cells /axi_ethernet_3] 
+// Tcl Message: Wrote  : </root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/ip/Z_system_axi_ethernet_3_0/bd_3/bd_3.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [Ipptcl 7-578] No Compatible Board Interface found.Board Tab not created 
+// Tcl Message: INFO: [board_rule:/axi_ethernet_3-100] set_property CONFIG.PHYRST_BOARD_INTERFACE Custom [get_bd_cells /axi_ethernet_3] INFO: [board_rule:/axi_ethernet_3-100] create_bd_port -dir O reset_rtl_0_1_2 -type rst INFO: [board_rule:/axi_ethernet_3-100] connect_bd_net /reset_rtl_0_1_2 /axi_ethernet_3/phy_rst_n 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_3_dma/S_AXI_LITE] 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </axi_ethernet_3_dma/S_AXI_LITE/Reg> is being mapped into </processing_system7_0/Data> at <0x40430000[ 64K ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_3_dma/M_AXI_SG] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </axi_ethernet_3_dma/Data_SG> at <0x00000000[ 1G ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_3_dma/M_AXI_MM2S] 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </axi_ethernet_3_dma/Data_MM2S> at <0x00000000[ 1G ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Slave "/processing_system7_0/S_AXI_HP0" Clk "Auto" }  [get_bd_intf_pins axi_ethernet_3_dma/M_AXI_S2MM] 
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is being mapped into </axi_ethernet_3_dma/Data_S2MM> at <0x00000000[ 1G ]> 
+// Tcl Message: endgroup 
+dismissDialog("Run Connection Automation"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Elapsed time: 16 seconds
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Elapsed time: 17 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 713, 481, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 713, 481, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 713, 481, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_0/gtx_clk] [get_bd_pins util_ds_buf_0/IBUF_OUT] 
+// [GUI Memory]: 143 MB (+559kb) [00:17:01]
+// [GUI Memory]: 144 MB (+621kb) [00:17:01]
+// [GUI Memory]: 144 MB (+443kb) [00:17:09]
+// TclEventType: RSB_CONNECTION_CHANGE
+// [GUI Memory]: 144 MB (+166kb) [00:17:22]
+// [GUI Memory]: 145 MB (+848kb) [00:17:22]
+// [Engine Memory]: 5,279 MB (+0kb) [00:17:23]
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_0/ref_clk] [get_bd_pins processing_system7_0/FCLK_CLK1] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_0/gtx_clk_out] [get_bd_pins axi_ethernet_1/gtx_clk] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net -net [get_bd_nets axi_ethernet_0_gtx_clk_out] [get_bd_pins axi_ethernet_2/gtx_clk] [get_bd_pins axi_ethernet_0/gtx_clk_out] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net -net [get_bd_nets axi_ethernet_0_gtx_clk_out] [get_bd_pins axi_ethernet_3/gtx_clk] [get_bd_pins axi_ethernet_0/gtx_clk_out] 
+// Elapsed time: 153 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 387, 93, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_0/gtx_clk90_out] [get_bd_pins axi_ethernet_1/gtx_clk90] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net -net [get_bd_nets axi_ethernet_0_gtx_clk_out] [get_bd_pins axi_ethernet_2/gtx_clk90] [get_bd_pins axi_ethernet_0/gtx_clk_out] 
+// Run Command: RDIResourceCommand.RDICommands_UNDO
+// Elapsed time: 32 seconds
+typeControlKey(null, null, 'z');
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: undo 
+// Tcl Message: INFO: [Common 17-17] undo 'connect_bd_net -net [get_bd_nets axi_ethernet_0_gtx_clk_out] [get_bd_pins axi_ethernet_2/gtx_clk90] [get_bd_pins axi_ethernet_0/gtx_clk_out]' 
+// [GUI Memory]: 146 MB (+389kb) [00:19:12]
+// [GUI Memory]: 146 MB (+175kb) [00:19:18]
+// [GUI Memory]: 146 MB (+1kb) [00:19:22]
+// [GUI Memory]: 147 MB (+917kb) [00:19:22]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net -net [get_bd_nets axi_ethernet_0_gtx_clk90_out] [get_bd_pins axi_ethernet_2/gtx_clk90] [get_bd_pins axi_ethernet_0/gtx_clk90_out] 
+// Elapsed time: 47 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 196, 361, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 196, 361, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+// [GUI Memory]: 147 MB (+683kb) [00:19:54]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net -net [get_bd_nets axi_ethernet_0_gtx_clk90_out] [get_bd_pins axi_ethernet_3/gtx_clk90] [get_bd_pins axi_ethernet_0/gtx_clk90_out] 
+// [GUI Memory]: 148 MB (+577kb) [00:20:00]
+// Elapsed time: 23 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 207, 159, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 207, 159, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 207, 159, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 207, 159, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Elapsed time: 23 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 409, 380, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+// Elapsed time: 18 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "concat"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+applyEnter(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // P:au (JViewport:JComponent, ResizableWindow:JWindow)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_0 
+// Tcl Message: endgroup 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// q:N (ch:JFrame): Re-customize IP: addNotify
+setText("Number of Ports", "16", true); // N:an (aH:M, q:N)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, q:N)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// [GUI Memory]: 149 MB (+949kb) [00:21:13]
+// Tcl Message: set_property -dict [list CONFIG.NUM_PORTS {16}] [get_bd_cells xlconcat_0] 
+// Elapsed time: 68 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 666, 246, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 666, 246, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 476, 252, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In0]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 5 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_1/mac_irq] [get_bd_pins xlconcat_0/In0] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 434, 279, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In1]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 3 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_1/interrupt] [get_bd_pins xlconcat_0/In1] 
+// Run Command: RDIResourceCommand.RDICommands_UNDO
+typeControlKey(null, null, 'z');
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: undo 
+// Tcl Message: INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins axi_ethernet_1/interrupt] [get_bd_pins xlconcat_0/In1]' 
+// Run Command: RDIResourceCommand.RDICommands_UNDO
+typeControlKey(null, null, 'z');
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: undo 
+// Tcl Message: INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins axi_ethernet_1/mac_irq] [get_bd_pins xlconcat_0/In0]' 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 472, 507, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 472, 507, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 472, 507, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 472, 507, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 472, 507, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+// [GUI Memory]: 150 MB (+1723kb) [00:23:11]
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 472, 507, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 472, 507, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 472, 507, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+// [GUI Memory]: 151 MB (+965kb) [00:23:12]
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 472, 507, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// Elapsed time: 19 seconds
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[Z_system, Nets, axi_ethernet_0_dma_mm2s_cntrl_reset_out_n]", 13, false); // k:JTree (JViewport:JComponent, ch:JFrame)
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {6 2570 576} [get_bd_cells axi_ethernet_0] 
+// Elapsed time: 52 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_OPTIMIZE_ROUTING, "System_RSB_OPTIMIZE_LAYOUT"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_ROUTE_LAYOUT
+// Tcl Message: regenerate_bd_layout -routing 
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {4 1274 455} [get_bd_cells axi_ethernet_0_dma] 
+// Elapsed time: 27 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_OPTIMIZE_ROUTING, "System_RSB_OPTIMIZE_LAYOUT"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_ROUTE_LAYOUT
+// Tcl Message: regenerate_bd_layout -routing 
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {5 1760 -139} [get_bd_cells axi_mem_intercon] 
+// Elapsed time: 34 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_OPTIMIZE_ROUTING, "System_RSB_OPTIMIZE_LAYOUT"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_ROUTE_LAYOUT
+// Tcl Message: regenerate_bd_layout -routing 
+// Elapsed time: 20 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 683, 36, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In0]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In0]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 5 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// [GUI Memory]: 152 MB (+445kb) [00:26:03]
+// [GUI Memory]: 152 MB (+725kb) [00:26:03]
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_0/mac_irq] [get_bd_pins xlconcat_0/In0] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 429, 277, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In1]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 3 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_0/interrupt] [get_bd_pins xlconcat_0/In1] 
+// Elapsed time: 15 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 560, 398, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In2]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 4 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_0_dma/mm2s_introut] [get_bd_pins xlconcat_0/In2] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 437, 278, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In3]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 6 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_0_dma/s2mm_introut] [get_bd_pins xlconcat_0/In3] 
+// Elapsed time: 12 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 489, 212, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In4]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 3 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_1/mac_irq] [get_bd_pins xlconcat_0/In4] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 430, 280, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In5]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 6 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// [GUI Memory]: 153 MB (+191kb) [00:27:24]
+// [GUI Memory]: 153 MB (+257kb) [00:27:24]
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_1/interrupt] [get_bd_pins xlconcat_0/In5] 
+// Elapsed time: 11 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 494, 377, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In6]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 4 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_1_dma/mm2s_introut] [get_bd_pins xlconcat_0/In6] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 435, 277, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In7]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 3 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_1_dma/s2mm_introut] [get_bd_pins xlconcat_0/In7] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 478, 378, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In8]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// [GUI Memory]: 154 MB (+974kb) [00:28:10]
+// 'aK' command handler elapsed time: 7 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_2/mac_irq] [get_bd_pins xlconcat_0/In8] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 433, 278, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In9]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 3 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_2/interrupt] [get_bd_pins xlconcat_0/In9] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 433, 137, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In10]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 4 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// [GUI Memory]: 154 MB (+134kb) [00:28:32]
+// [GUI Memory]: 154 MB (+406kb) [00:28:32]
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_3/mac_irq] [get_bd_pins xlconcat_0/In10] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 431, 278, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In11]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 4 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// [GUI Memory]: 155 MB (+439kb) [00:28:46]
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_3/interrupt] [get_bd_pins xlconcat_0/In11] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 655, 106, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In12]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 3 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_2_dma/mm2s_introut] [get_bd_pins xlconcat_0/In12] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 438, 278, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In13]", 8, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 3 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_2_dma/s2mm_introut] [get_bd_pins xlconcat_0/In13] 
+// [GUI Memory]: 155 MB (+288kb) [00:29:53]
+// Elapsed time: 45 seconds
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+selectButton(PAResourceQtoS.SystemBuilderView_OPTIMIZE_ROUTING, "System_RSB_OPTIMIZE_LAYOUT"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_ROUTE_LAYOUT
+// Tcl Message: regenerate_bd_layout -routing 
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Elapsed time: 67 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Elapsed time: 38 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 205, 198, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Delete"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_cells idelay_ctrl_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 156 MB (+975kb) [00:32:01]
+// Elapsed time: 14 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 564, 247, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In14]", 5, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 6 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_3_dma/mm2s_introut] [get_bd_pins xlconcat_0/In14] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 435, 278, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, xlconcat_0, In15]", 5, false); // cz:a (JViewport:JComponent, co:ac)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 3 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// TclEventType: RSB_CONNECTION_CHANGE
+// [GUI Memory]: 157 MB (+761kb) [00:32:29]
+// Tcl Message: connect_bd_net [get_bd_pins axi_ethernet_3_dma/s2mm_introut] [get_bd_pins xlconcat_0/In15] 
+// Elapsed time: 24 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 186, 347, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 186, 347, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+// [GUI Memory]: 157 MB (+484kb) [00:33:03]
+// Elapsed time: 12 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 219, 121, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // W:JMenu (ag:JPopupMenu, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// co:ac (ch:JFrame): Make Connecton: addNotify
+// Elapsed time: 13 seconds
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, axi_ethernet_2]", 12, true, false, false, false, true, false); // cq:k (JViewport:JComponent, co:ac) - Popup Trigger - Node
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, axi_ethernet_2]", 12, true, false, false, false, true, false); // cq:k (JViewport:JComponent, co:ac) - Popup Trigger - Node
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, co:ac)
+// 'aK' command handler elapsed time: 16 seconds
+dismissDialog("Make Connecton"); // co:ac (ch:JFrame)
+// Elapsed time: 17 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_OPTIMIZE_ROUTING, "System_RSB_OPTIMIZE_LAYOUT"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_ROUTE_LAYOUT
+// Tcl Message: regenerate_bd_layout -routing 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 469, 295, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 469, 295, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins xlconcat_0/dout] [get_bd_pins processing_system7_0/IRQ_F2P] 
+// Elapsed time: 63 seconds
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Elapsed time: 24 seconds
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+applyEnter(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "rgmii_port_0"); // an:JTextField (JPanel:JComponent, ch:JFrame)
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name rgmii_port_0 [get_bd_intf_ports rgmii_rtl] 
+// [GUI Memory]: 157 MB (+147kb) [00:36:09]
+// Elapsed time: 48 seconds
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+applyEnter(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "mdio_io_port_0"); // an:JTextField (JPanel:JComponent, ch:JFrame)
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name mdio_io_port_0 [get_bd_intf_ports mdio_io] 
+// Elapsed time: 42 seconds
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+applyEnter(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "rgmii_port_1"); // an:JTextField (JPanel:JComponent, ch:JFrame)
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name rgmii_port_1 [get_bd_intf_ports rgmii_rtl_0] 
+// Elapsed time: 155 seconds
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+applyEnter(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "mdio_io_port_1"); // an:JTextField (JPanel:JComponent, ch:JFrame)
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name mdio_io_port_1 [get_bd_intf_ports mdio_io_0] 
+// Elapsed time: 40 seconds
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+applyEnter(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "rgmii_port_2"); // an:JTextField (JPanel:JComponent, ch:JFrame)
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name rgmii_port_2 [get_bd_intf_ports rgmii_rtl_1] 
+// Elapsed time: 32 seconds
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+applyEnter(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "mdio_io_port_2"); // an:JTextField (JPanel:JComponent, ch:JFrame)
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// [Engine Memory]: 5,281 MB (+2097kb) [00:40:55]
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name mdio_io_port_2 [get_bd_intf_ports mdio_io_1] 
+// Elapsed time: 64 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 760, 158, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 760, 158, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 760, 158, 883, 558, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+// Elapsed time: 31 seconds
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+applyEnter(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "rgmii_port_3"); // an:JTextField (JPanel:JComponent, ch:JFrame)
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name rgmii_port_3 [get_bd_intf_ports rgmii_rtl_2] 
+// Elapsed time: 37 seconds
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+applyEnter(PAResourceQtoS.RSBExternalInterfacePropPanels_NAME, "mdio_io_port_3"); // an:JTextField (JPanel:JComponent, ch:JFrame)
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name mdio_io_port_3 [get_bd_intf_ports mdio_io_2] 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,281 MB. GUI used memory: 104 MB. Current time: 2/13/15 8:01:47 PM
+// Elapsed time: 36 seconds
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+applyEnter(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "reset_port_3"); // an:JTextField (JPanel:JComponent, ch:JFrame)
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name reset_port_3 [get_bd_ports reset_rtl_0_1_2] 
+// Elapsed time: 34 seconds
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "reset_port_1", true); // an:JTextField (JPanel:JComponent, ch:JFrame)
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name reset_port_1 [get_bd_ports reset_rtl_0] 
+// Elapsed time: 25 seconds
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "reset_port_2", true); // an:JTextField (JPanel:JComponent, ch:JFrame)
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name reset_port_2 [get_bd_ports reset_rtl_0_1] 
+selectTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[Z_system, Ports, reset_rtl]", 69, false); // k:JTree (JViewport:JComponent, ch:JFrame)
+// Elapsed time: 11 seconds
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "reset_port_0", true); // an:JTextField (JPanel:JComponent, ch:JFrame)
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name reset_port_0 [get_bd_ports reset_rtl] 
+selectButton(PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN, "save_rsb_design"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: Wrote  : </root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/Z_system.bd>  
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// cm:N (ch:JFrame):  Validate Design : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 5,285 MB (+4194kb) [00:45:42]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 5,291 MB (+6291kb) [00:45:42]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 5,294 MB (+3145kb) [00:45:43]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 5,295 MB (+1048kb) [00:45:43]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 5,304 MB (+8814kb) [00:45:44]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,304 MB. GUI used memory: 104 MB. Current time: 2/13/15 8:04:07 PM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 5,311 MB (+7979kb) [00:45:49]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: validate_bd_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 6116.340 ; gain = 30.016 ; free physical = 2055 ; free virtual = 6038 
+// Elapsed time: 15 seconds
+dismissDialog("Validate Design"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton("PAResourceTtoZ.ValidateRSBDesign_VALIDATION_SUCCESSFUL_THERE_NO_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, Q:JDialog)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Generate Block Design]", 8, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_RSB_DESIGN
+// aA:ac (ch:JFrame): Generate Output Products: addNotify
+selectButton(PAResourceCommand.PACommandNames_OUT_OF_CONTEXT_SETTINGS, "Out-of-Context Settings..."); // a:JButton (JPanel:JComponent, aA:ac)
+// cm:N (ch:JFrame):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: generate_target all [get_files  /root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/Z_system.bd] 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [BD 41-1378] This design does not contain any "MEMORY" mapped segment for processor processing_system7_0 
+// [Engine Memory]: 5,335 MB (+25165kb) [00:46:10]
+// Tcl Message: INFO: [BD 41-1378] This design does not contain any "MEMORY" mapped segment for processor processing_system7_0 INFO: [BD 41-1378] This design does not contain any "MEMORY" mapped segment for processor processing_system7_0 
+// Tcl Message: Generated Block Design Tcl file /root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/hw_handoff/Z_system_bd.tcl Exporting to file /root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/hw_handoff/Z_system.hwh 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 5,347 MB (+12607kb) [00:46:12]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,361 MB. GUI used memory: 106 MB. Current time: 2/13/15 8:04:32 PM
+// Tcl Message: Verilog Output written to : Z_system.v Verilog Output written to : Z_system_wrapper.v 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 5,361 MB (+14385kb) [00:46:13]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Wrote  : </root/base_zc706/base_zc706.srcs/sources_1/bd/Z_system/Z_system.bd>  
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block ref_clk_fsel . INFO: [BD 41-1029] Generation completed for the IP Integrator block ref_clk_oe . INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Z_system_processing_system7_0_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_processing_system7_0_0'... 
+// [Engine Memory]: 5,390 MB (+30408kb) [00:46:18]
+// [Engine Memory]: 5,394 MB (+4194kb) [00:46:23]
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_processing_system7_0_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'Z_system_processing_system7_0_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'Z_system_processing_system7_0_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Z_system_axi_ethernet_0_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_axi_ethernet_0_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_axi_ethernet_0_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'Z_system_axi_ethernet_0_0'... 
+// Tcl Message: Verilog Output written to : bd_0.v Verilog Output written to : bd_0_wrapper.v 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_axi_ethernet_0_0/bd_0/bd_0_eth_buf_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_axi_ethernet_0_0/bd_0/bd_0_eth_buf_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'Z_system_axi_ethernet_0_0/bd_0/bd_0_eth_buf_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block eth_buf . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_axi_ethernet_0_0/bd_0/bd_0_eth_mac_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_axi_ethernet_0_0/bd_0/bd_0_eth_mac_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'Z_system_axi_ethernet_0_0/bd_0/bd_0_eth_mac_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block eth_mac . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0 . INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Z_system_axi_ethernet_0_dma_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_axi_ethernet_0_dma_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_axi_ethernet_0_dma_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'Z_system_axi_ethernet_0_dma_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_dma . INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Z_system_rst_processing_system7_0_100M_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_rst_processing_system7_0_100M_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_rst_processing_system7_0_100M_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'Z_system_rst_processing_system7_0_100M_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'Z_system_rst_processing_system7_0_100M_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_processing_system7_0_100M . INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Z_system_xbar_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_xbar_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_xbar_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'Z_system_xbar_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 5,396 MB (+2097kb) [00:46:38]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Verilog Output written to : bd_1.v Verilog Output written to : bd_1_wrapper.v 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_axi_ethernet_1_0/bd_1/bd_1_eth_buf_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_axi_ethernet_1_0/bd_1/bd_1_eth_buf_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'Z_system_axi_ethernet_1_0/bd_1/bd_1_eth_buf_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block eth_buf . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_axi_ethernet_1_0/bd_1/bd_1_eth_mac_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_axi_ethernet_1_0/bd_1/bd_1_eth_mac_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 158 MB (+853kb) [00:46:45]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 5,399 MB (+3170kb) [00:46:46]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'Z_system_axi_ethernet_1_0/bd_1/bd_1_eth_mac_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block eth_mac . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_1 . INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Z_system_axi_ethernet_1_dma_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_axi_ethernet_1_dma_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_axi_ethernet_1_dma_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'Z_system_axi_ethernet_1_dma_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_1_dma . INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Z_system_axi_ethernet_2_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_axi_ethernet_2_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_axi_ethernet_2_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'Z_system_axi_ethernet_2_0'... 
+// Tcl Message: Verilog Output written to : bd_2.v Verilog Output written to : bd_2_wrapper.v 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_axi_ethernet_2_0/bd_2/bd_2_eth_buf_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_axi_ethernet_2_0/bd_2/bd_2_eth_buf_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'Z_system_axi_ethernet_2_0/bd_2/bd_2_eth_buf_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block eth_buf . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_axi_ethernet_2_0/bd_2/bd_2_eth_mac_0'... 
+// [Engine Memory]: 5,400 MB (+1048kb) [00:46:50]
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_axi_ethernet_2_0/bd_2/bd_2_eth_mac_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 5,405 MB (+5283kb) [00:46:53]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'Z_system_axi_ethernet_2_0/bd_2/bd_2_eth_mac_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block eth_mac . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_2 . INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Z_system_axi_ethernet_2_dma_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_axi_ethernet_2_dma_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_axi_ethernet_2_dma_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'Z_system_axi_ethernet_2_dma_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_2_dma . INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Z_system_axi_ethernet_3_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_axi_ethernet_3_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_axi_ethernet_3_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'Z_system_axi_ethernet_3_0'... 
+// Tcl Message: Verilog Output written to : bd_3.v Verilog Output written to : bd_3_wrapper.v 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_axi_ethernet_3_0/bd_3/bd_3_eth_buf_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_axi_ethernet_3_0/bd_3/bd_3_eth_buf_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'Z_system_axi_ethernet_3_0/bd_3/bd_3_eth_buf_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block eth_buf . INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_axi_ethernet_3_0/bd_3/bd_3_eth_mac_0'... 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,406 MB. GUI used memory: 106 MB. Current time: 2/13/15 8:05:17 PM
+// [Engine Memory]: 5,406 MB (+1048kb) [00:46:58]
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_axi_ethernet_3_0/bd_3/bd_3_eth_mac_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'Z_system_axi_ethernet_3_0/bd_3/bd_3_eth_mac_0'... INFO: [BD 41-1029] Generation completed for the IP Integrator block eth_mac . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_3 . INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Z_system_axi_ethernet_3_dma_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Z_system_axi_ethernet_3_dma_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Z_system_axi_ethernet_3_dma_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 159 MB (+1338kb) [00:47:03]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s05_couplers/auto_us . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s06_couplers/auto_us . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s07_couplers/auto_us . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s08_couplers/auto_us . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s09_couplers/auto_us . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s10_couplers/auto_us . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s11_couplers/auto_us . INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: generate_target: Time (s): cpu = 00:01:06 ; elapsed = 00:01:04 . Memory (MB): peak = 6211.145 ; gain = 94.805 ; free physical = 1774 ; free virtual = 5936 
+// [Engine Memory]: 5,418 MB (+12451kb) [00:47:05]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 66 seconds
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aA:ac)
+// 'aL' command handler elapsed time: 68 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, Q:JDialog)
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 5,420 MB (+2097kb) [00:47:07]
+// [GUI Memory]: 160 MB (+582kb) [00:47:08]
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 24, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Fri Feb 13 20:05:54 2015] Launched synth_1... Run output will be captured here: /root/base_zc706/base_zc706.runs/synth_1/runme.log [Fri Feb 13 20:05:54 2015] Launched impl_1... Run output will be captured here: /root/base_zc706/base_zc706.runs/impl_1/runme.log 
+// [Engine Memory]: 5,428 MB (+8388kb) [00:47:34]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,428 MB. GUI used memory: 104 MB. Current time: 2/13/15 8:05:57 PM
+// TclEventType: RUN_COMPLETED
+// [Engine Memory]: 5,454 MB (+27402kb) [01:04:42]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,454 MB. GUI used memory: 110 MB. Current time: 2/13/15 8:23:05 PM
+// [Engine Memory]: 5,462 MB (+8388kb) [01:04:49]
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 2139 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // Z:JMenuItem (JPopupMenu:JComponent, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// G:ac (ch:JFrame): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // h:JCheckBox (JPanel:JComponent, G:ac): TRUE
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", false); // h:JCheckBox (JPanel:JComponent, G:ac): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:ac)
+// 'n' command handler elapsed time: 5 seconds
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, R:JDialog)
+dismissDialog("Export Hardware"); // G:ac (ch:JFrame)
+// Tcl Message: file copy -force /root/base_zc706/base_zc706.runs/impl_1/Z_system_wrapper.sysdef /root/base_zc706/base_zc706.sdk/Z_system_wrapper.hdf  
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// q:N (ch:JFrame): Re-customize IP: addNotify
+// Elapsed time: 109 seconds
+setText("Width of Buffer Length Register (8-23)", "16"); // N:an (aH:M, q:N)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, q:N)
+// Elapsed time: 11 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 565, 461, 883, 549, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 565, 461, 883, 549, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 565, 461, 883, 549, false, false, false, true, false); // dZ:aG (TdiGroup:JideTabbedPane, ch:JFrame) - Popup Trigger
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // v:JideButton (CommandBar:DockableBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 113 MB. Current time: 2/13/15 8:53:08 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 113 MB. Current time: 2/13/15 9:23:08 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 112 MB. Current time: 2/13/15 9:53:08 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 112 MB. Current time: 2/13/15 10:23:09 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 112 MB. Current time: 2/13/15 10:53:09 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 112 MB. Current time: 2/13/15 11:23:09 PM
+// Elapsed time: 10091 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+// [GUI Memory]: 160 MB (+14kb) [04:31:42]
+// [GUI Memory]: 160 MB (+37kb) [04:31:47]
+// [GUI Memory]: 160 MB (+115kb) [04:31:52]
+// [GUI Memory]: 160 MB (+2kb) [04:31:57]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 110 MB. Current time: 2/13/15 11:53:09 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 112 MB. Current time: 2/14/15 12:23:09 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 112 MB. Current time: 2/14/15 4:10:37 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 140 MB. Current time: 2/15/15 12:34:55 PM
+// [GUI Memory]: 161 MB (+409kb) [41:24:16]
+// [GUI Memory]: 161 MB (+44kb) [41:24:21]
+// [GUI Memory]: 161 MB (+114kb) [41:24:26]
+// [GUI Memory]: 161 MB (+44kb) [41:24:31]
+// [GUI Memory]: 161 MB (+622kb) [41:24:36]
+// [GUI Memory]: 161 MB (+54kb) [41:24:41]
+// [GUI Memory]: 161 MB (+104kb) [41:24:46]
+// [GUI Memory]: 162 MB (+537kb) [41:24:51]
+// [GUI Memory]: 162 MB (+147kb) [41:24:56]
+// [GUI Memory]: 163 MB (+674kb) [41:25:06]
+// [GUI Memory]: 163 MB (+12kb) [41:25:11]
+// [GUI Memory]: 163 MB (+102kb) [41:25:16]
+// [GUI Memory]: 163 MB (+56kb) [41:25:21]
+// [GUI Memory]: 163 MB (+622kb) [41:25:26]
+// [GUI Memory]: 164 MB (+54kb) [41:25:31]
+// [GUI Memory]: 164 MB (+104kb) [41:25:36]
+// [GUI Memory]: 164 MB (+527kb) [41:25:41]
+// [GUI Memory]: 164 MB (+159kb) [41:25:46]
+// [GUI Memory]: 164 MB (+159kb) [41:25:56]
+// [GUI Memory]: 165 MB (+517kb) [41:26:01]
+// [GUI Memory]: 165 MB (+145kb) [41:26:06]
+// [GUI Memory]: 165 MB (+14kb) [41:26:11]
+// [GUI Memory]: 166 MB (+624kb) [41:26:16]
+// [GUI Memory]: 166 MB (+56kb) [41:26:22]
+// [GUI Memory]: 166 MB (+104kb) [41:26:27]
+// [GUI Memory]: 166 MB (+42kb) [41:26:32]
+// [GUI Memory]: 166 MB (+633kb) [41:26:37]
+// [GUI Memory]: 167 MB (+159kb) [41:26:47]
+// [GUI Memory]: 167 MB (+519kb) [41:26:52]
+// [GUI Memory]: 167 MB (+145kb) [41:26:57]
+// [GUI Memory]: 167 MB (+14kb) [41:27:02]
+// [GUI Memory]: 167 MB (+102kb) [41:27:07]
+// [GUI Memory]: 168 MB (+584kb) [41:27:12]
+// [GUI Memory]: 168 MB (+112kb) [41:27:17]
+// [GUI Memory]: 168 MB (+42kb) [41:27:22]
+// [GUI Memory]: 169 MB (+635kb) [41:27:27]
+// [GUI Memory]: 169 MB (+44kb) [41:27:32]
+// [GUI Memory]: 169 MB (+116kb) [41:27:37]
+// [GUI Memory]: 169 MB (+519kb) [41:27:42]
+// [GUI Memory]: 169 MB (+145kb) [41:27:47]
+// [GUI Memory]: 170 MB (+14kb) [41:27:52]
+// [GUI Memory]: 170 MB (+145kb) [41:27:57]
+// [GUI Memory]: 170 MB (+527kb) [41:28:02]
+// [GUI Memory]: 170 MB (+116kb) [41:28:07]
+// [GUI Memory]: 170 MB (+42kb) [41:28:12]
+// [GUI Memory]: 171 MB (+633kb) [41:28:17]
+// [GUI Memory]: 171 MB (+42kb) [41:28:22]
+// [GUI Memory]: 171 MB (+102kb) [41:28:27]
+// [GUI Memory]: 171 MB (+16kb) [41:28:32]
+// [GUI Memory]: 172 MB (+672kb) [41:28:37]
+// [GUI Memory]: 172 MB (+14kb) [41:28:42]
+// [GUI Memory]: 172 MB (+145kb) [41:28:47]
+// [GUI Memory]: 172 MB (+517kb) [41:28:52]
+// [GUI Memory]: 172 MB (+159kb) [41:28:57]
+// [GUI Memory]: 173 MB (+118kb) [41:29:07]
+// [GUI Memory]: 173 MB (+560kb) [41:29:12]
+// [GUI Memory]: 173 MB (+104kb) [41:29:17]
+// [GUI Memory]: 173 MB (+54kb) [41:29:22]
+// [GUI Memory]: 174 MB (+636kb) [41:29:27]
+// [GUI Memory]: 174 MB (+14kb) [41:29:32]
+// [GUI Memory]: 174 MB (+145kb) [41:29:37]
+// [GUI Memory]: 174 MB (+4kb) [41:29:42]
+// [GUI Memory]: 175 MB (+676kb) [41:29:47]
+// [GUI Memory]: 175 MB (+116kb) [41:29:57]
+// [GUI Memory]: 175 MB (+560kb) [41:30:02]
+// [GUI Memory]: 175 MB (+104kb) [41:30:07]
+// [GUI Memory]: 175 MB (+54kb) [41:30:12]
+// [GUI Memory]: 176 MB (+104kb) [41:30:17]
+// [GUI Memory]: 176 MB (+570kb) [41:30:22]
+// [GUI Memory]: 176 MB (+114kb) [41:30:27]
+// [GUI Memory]: 176 MB (+2kb) [41:30:32]
+// [GUI Memory]: 177 MB (+674kb) [41:30:37]
+// [GUI Memory]: 177 MB (+2kb) [41:30:42]
+// [GUI Memory]: 177 MB (+147kb) [41:30:47]
+// [GUI Memory]: 178 MB (+531kb) [41:30:52]
+// [GUI Memory]: 178 MB (+104kb) [41:30:57]
+// [GUI Memory]: 178 MB (+54kb) [41:31:02]
+// [GUI Memory]: 178 MB (+104kb) [41:31:07]
+// [GUI Memory]: 178 MB (+560kb) [41:31:12]
+// [GUI Memory]: 178 MB (+114kb) [41:31:17]
+// [GUI Memory]: 178 MB (+4kb) [41:31:22]
+// [GUI Memory]: 179 MB (+674kb) [41:31:27]
+// [GUI Memory]: 179 MB (+10kb) [41:31:32]
+// [GUI Memory]: 179 MB (+145kb) [41:31:37]
+// [GUI Memory]: 179 MB (+14kb) [41:31:42]
+// [GUI Memory]: 180 MB (+670kb) [41:31:47]
+// [GUI Memory]: 180 MB (+11kb) [41:31:52]
+// [GUI Memory]: 180 MB (+108kb) [41:31:57]
+// [GUI Memory]: 181 MB (+560kb) [41:32:02]
+// [GUI Memory]: 181 MB (+116kb) [41:32:07]
+// [GUI Memory]: 181 MB (+42kb) [41:32:12]
+// [GUI Memory]: 181 MB (+114kb) [41:32:17]
+// [GUI Memory]: 181 MB (+519kb) [41:32:22]
+// [GUI Memory]: 181 MB (+145kb) [41:32:27]
+// [GUI Memory]: 181 MB (+16kb) [41:32:32]
+// [GUI Memory]: 182 MB (+670kb) [41:32:37]
+// [GUI Memory]: 182 MB (+11kb) [41:32:42]
+// [GUI Memory]: 182 MB (+104kb) [41:32:47]
+// [GUI Memory]: 182 MB (+42kb) [41:32:52]
+// [GUI Memory]: 183 MB (+636kb) [41:32:57]
+// [GUI Memory]: 183 MB (+42kb) [41:33:02]
+// [GUI Memory]: 183 MB (+106kb) [41:33:07]
+// [GUI Memory]: 184 MB (+580kb) [41:33:12]
+// [GUI Memory]: 184 MB (+102kb) [41:33:17]
+// [GUI Memory]: 184 MB (+14kb) [41:33:22]
+// [GUI Memory]: 184 MB (+145kb) [41:33:27]
+// [GUI Memory]: 184 MB (+519kb) [41:33:32]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 138 MB. Current time: 2/15/15 1:04:56 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 138 MB. Current time: 2/15/15 1:34:57 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 138 MB. Current time: 2/15/15 2:04:57 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 142 MB. Current time: 2/15/15 5:13:51 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 135 MB. Current time: 2/16/15 9:37:28 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 139 MB. Current time: 2/16/15 10:07:28 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 138 MB. Current time: 2/16/15 10:37:32 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 138 MB. Current time: 2/16/15 11:07:32 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 138 MB. Current time: 2/16/15 11:37:32 AM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 138 MB. Current time: 2/16/15 12:07:33 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 138 MB. Current time: 2/16/15 12:37:33 PM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,462 MB. GUI used memory: 138 MB. Current time: 2/16/15 1:07:33 PM
+// Elapsed time: 222988 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // Z:JMenuItem (JPopupMenu:JComponent, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// J:ac (ch:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:ac)
+dismissDialog("Launch SDK"); // J:ac (ch:JFrame)
+// Tcl Message: launch_sdk -workspace /root/base_zc706/base_zc706.sdk -hwspec /root/base_zc706/base_zc706.sdk/Z_system_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /root/base_zc706/base_zc706.sdk -hwspec /root/base_zc706/base_zc706.sdk/Z_system_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 185 MB (+903kb) [66:10:15]
+// [GUI Memory]: 185 MB (+95kb) [66:10:20]

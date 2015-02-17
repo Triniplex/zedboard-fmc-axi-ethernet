@@ -1,0 +1,1 @@
+cmd_examples/standalone/hello_world := arm-xilinx-linux-gnueabi-ld   -g -Ttext 0xc100000 -o examples/standalone/hello_world -e hello_world examples/standalone/hello_world.o examples/standalone/libstubs.o -L /opt/Xilinx/SDK/2014.4/gnu/arm/lin/bin/../lib/gcc/arm-xilinx-linux-gnueabi/4.8.3 -lgcc

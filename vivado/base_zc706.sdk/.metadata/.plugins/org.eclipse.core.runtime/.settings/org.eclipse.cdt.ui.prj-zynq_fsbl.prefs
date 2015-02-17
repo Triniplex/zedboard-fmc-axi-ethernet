@@ -1,0 +1,3 @@
+buildConsole/keepLog=true
+buildConsole/logLocation=/root/base_zc706/base_zc706.sdk/.metadata/.plugins/org.eclipse.cdt.ui/zynq_fsbl.build.log
+eclipse.preferences.version=1

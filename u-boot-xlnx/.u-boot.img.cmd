@@ -1,0 +1,1 @@
+cmd_u-boot.img := /root/zynq_linux_axiethernet_driver/u-boot-xlnx/tools/mkimage -A arm -T firmware -C none -O u-boot -a 0x4000000 -e 0x4000000 -n "U-Boot 2014.07-dirty for zynq board" -d u-boot.bin u-boot.img  >/dev/null

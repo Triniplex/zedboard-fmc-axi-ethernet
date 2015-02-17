@@ -1,0 +1,4 @@
+cpu.c:20:5:arch_cpu_init	8	static
+cpu.c:48:14:zynq_get_silicon_version	0	static
+cpu.c:58:6:reset_cpu	8	static
+cpu.c:66:6:enable_caches	0	static

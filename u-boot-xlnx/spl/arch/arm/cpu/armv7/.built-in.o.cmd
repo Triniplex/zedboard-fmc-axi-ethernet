@@ -1,0 +1,1 @@
+cmd_spl/arch/arm/cpu/armv7/built-in.o :=  arm-xilinx-linux-gnueabi-ld     -r -o spl/arch/arm/cpu/armv7/built-in.o spl/arch/arm/cpu/armv7/cache_v7.o spl/arch/arm/cpu/armv7/cpu.o spl/arch/arm/cpu/armv7/syslib.o 

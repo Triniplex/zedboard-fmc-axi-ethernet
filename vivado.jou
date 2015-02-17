@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:47:07 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sat Feb  7 23:17:13 2015
+# Process ID: 18356
+# Log file: /root/base_zc706/vivado.log
+# Journal file: /root/base_zc706/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /root/base_zc706/base_zc706.xpr
+file mkdir /root/base_zc706/base_zc706.sdk
+file copy -force /root/base_zc706/base_zc706.runs/impl_1/Z_system_wrapper.sysdef /root/base_zc706/base_zc706.sdk/Z_system_wrapper.hdf
+
+launch_sdk -workspace /root/base_zc706/base_zc706.sdk -hwspec /root/base_zc706/base_zc706.sdk/Z_system_wrapper.hdf

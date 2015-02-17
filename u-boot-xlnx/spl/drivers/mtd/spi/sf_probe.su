@@ -1,0 +1,3 @@
+sf_probe.c:75:12:spi_flash_set_qeb	16	static
+sf_probe.c:400:19:spi_flash_probe	48	static
+sf_probe.c:420:6:spi_flash_free	8	static

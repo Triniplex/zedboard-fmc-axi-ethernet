@@ -1,0 +1,16 @@
+serial_zynq.c:117:13:uart_zynq_serial_putc	0	static
+serial_zynq.c:181:1:uart_zynq0_putc	0	static
+serial_zynq.c:184:1:uart_zynq1_tstc	0	static
+serial_zynq.c:184:1:uart_zynq1_putc	0	static
+serial_zynq.c:184:1:uart_zynq1_puts	8	static
+serial_zynq.c:62:13:uart_zynq_serial_setbrg	32	static
+serial_zynq.c:184:1:uart_zynq1_setbrg	0	static
+serial_zynq.c:181:1:uart_zynq0_init	8	static
+serial_zynq.c:181:1:uart_zynq0_setbrg	0	static
+serial_zynq.c:184:1:uart_zynq1_getc	0	static
+serial_zynq.c:181:1:uart_zynq0_tstc	0	static
+serial_zynq.c:184:1:uart_zynq1_init	8	static
+serial_zynq.c:181:1:uart_zynq0_getc	0	static
+serial_zynq.c:181:1:uart_zynq0_puts	8	static
+serial_zynq.c:212:30:default_serial_console	0	static
+serial_zynq.c:226:6:zynq_serial_initialize	8	static

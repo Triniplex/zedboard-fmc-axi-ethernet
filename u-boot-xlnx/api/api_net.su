@@ -1,0 +1,5 @@
+api_net.c:34:5:dev_open_net	8	static
+api_net.c:45:5:dev_close_net	8	static
+api_net.c:58:5:dev_enum_net	8	static
+api_net.c:75:5:dev_write_net	0	static
+api_net.c:82:5:dev_read_net	0	static

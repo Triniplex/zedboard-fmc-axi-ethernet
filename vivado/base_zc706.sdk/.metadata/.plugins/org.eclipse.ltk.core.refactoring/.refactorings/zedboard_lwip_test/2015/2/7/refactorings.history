@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;echo.c&apos; to &apos;src&apos;" description="Move &apos;echo.c&apos; to &apos;src&apos;" destination="src" element1="src/src/echo.c" element10="src/src/platform.c" element11="src/src/platform.h" element12="src/src/sfp.c" element13="src/src/si5324.c" element14="src/src/lscript.ld" element15="src/src/README.txt" element2="src/src/ethfmc_axie.c" element3="src/src/ethfmc_axie.h" element4="src/src/i2c_access.c" element5="src/src/main.c" element6="src/src/platform_config.h" element7="src/src/platform_mb.c" element8="src/src/platform_ppc.c" element9="src/src/platform_zynq.c" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="15" stamp="1423675075701" updateReferences="true"/>
+</session>

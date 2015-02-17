@@ -1,0 +1,7 @@
+libgenwrap.c:22:5:printf	272	static
+libgenwrap.c:41:5:vprintf	264	static
+libgenwrap.c:56:6:putc	0	static
+libgenwrap.c:61:6:__udelay	0	static
+libgenwrap.c:66:5:do_reset	8	static
+libgenwrap.c:72:7:malloc	0	static
+libgenwrap.c:77:6:hang	0	static

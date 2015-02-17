@@ -1,0 +1,1 @@
+cmd_arch/arm/cpu/armv7/zynq/built-in.o :=  arm-xilinx-linux-gnueabi-ld     -r -o arch/arm/cpu/armv7/zynq/built-in.o arch/arm/cpu/armv7/zynq/timer.o arch/arm/cpu/armv7/zynq/cpu.o arch/arm/cpu/armv7/zynq/ddrc.o arch/arm/cpu/armv7/zynq/slcr.o arch/arm/cpu/armv7/zynq/clk.o arch/arm/cpu/armv7/zynq/lowlevel_init.o 

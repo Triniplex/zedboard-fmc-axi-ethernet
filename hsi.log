@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# hsi v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:48:31 MST 2014
+# 
+# Start of session at: Thu Feb  5 01:24:27 2015
+# Process ID: 9593
+# Log file: /root/base_zc706/hsi.log
+# Journal file: /root/base_zc706/hsi.jou
+#-----------------------------------------------------------
+INFO: [Hsi 55-1698] elapsed time for repository loading 0 seconds
+get_hw_designs 
+quit
+INFO: [Common 17-206] Exiting hsi at Thu Feb  5 01:24:32 2015...

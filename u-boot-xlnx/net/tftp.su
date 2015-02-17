@@ -1,0 +1,7 @@
+tftp.c:294:13:tftp_complete	8	static
+tftp.c:314:1:TftpSend	40	static
+tftp.c:276:13:update_block_number	8	static
+tftp.c:446:1:TftpHandler	24	static
+tftp.c:675:1:TftpTimeout	8	static
+tftp.c:435:13:icmp_handler	8	static
+tftp.c:688:6:TftpStart	40	static

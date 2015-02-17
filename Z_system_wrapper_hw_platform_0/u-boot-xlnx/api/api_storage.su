@@ -1,0 +1,9 @@
+api_storage.c:166:12:dev_stor_type	24	static
+api_storage.c:99:12:dev_stor_get	40	static
+api_storage.c:306:12:dev_stor_is_valid	16	static
+api_storage.c:47:6:dev_stor_init	0	static
+api_storage.c:281:6:dev_enum_reset	0	static
+api_storage.c:291:5:dev_enum_storage	40	static
+api_storage.c:319:5:dev_open_stor	8	static
+api_storage.c:333:5:dev_close_stor	0	static
+api_storage.c:356:11:dev_read_stor	32	static

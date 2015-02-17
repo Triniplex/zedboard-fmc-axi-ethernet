@@ -1,0 +1,42 @@
+include/autoconf.mk: \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/include/common.h \
+ include/config.h include/config_cmd_defaults.h include/config_defaults.h \
+ include/configs/zynq_zc70x.h include/configs/zynq-common.h \
+ include/config_cmd_default.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/config.h \
+ include/config_fallbacks.h include/config_uncmd_spl.h \
+ include/asm-offsets.h include/linux/bitops.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/types.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/bitops.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/proc-armv/system.h \
+ include/linux/types.h include/linux/posix_types.h include/linux/stddef.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/posix_types.h \
+ /opt/Xilinx/SDK/2014.4/gnu/arm/lin/lib/gcc/arm-xilinx-linux-gnueabi/4.8.3/include/stdbool.h \
+ include/linux/string.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/string.h \
+ include/linux/linux_string.h include/linux/stringify.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/ptrace.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/proc-armv/ptrace.h \
+ /opt/Xilinx/SDK/2014.4/gnu/arm/lin/lib/gcc/arm-xilinx-linux-gnueabi/4.8.3/include/stdarg.h \
+ include/part.h include/ide.h include/common.h include/flash.h \
+ include/image.h include/compiler.h \
+ /opt/Xilinx/SDK/2014.4/gnu/arm/lin/lib/gcc/arm-xilinx-linux-gnueabi/4.8.3/include/stddef.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/byteorder.h \
+ include/linux/byteorder/little_endian.h include/linux/compiler.h \
+ include/linux/compiler-gcc.h include/linux/compiler-gcc4.h \
+ include/linux/byteorder/swab.h include/linux/byteorder/generic.h \
+ include/lmb.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/u-boot.h \
+ include/asm-generic/u-boot.h include/command.h include/linker_lists.h \
+ include/hash.h include/libfdt.h include/libfdt_env.h \
+ include/linux/types.h include/fdt.h include/fdt_support.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/global_data.h \
+ include/asm-generic/global_data.h include/linux/list.h \
+ include/linux/poison.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/mach-types.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/setup.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/u-boot-arm.h \
+ include/uuid.h include/vsprintf.h include/u-boot/crc.h include/net.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/cache.h \
+ /root/zynq_linux_axiethernet_driver/u-boot-xlnx/arch/arm/include/asm/system.h \
+ include/bootstage.h include/environment.h

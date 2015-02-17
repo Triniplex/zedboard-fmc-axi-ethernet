@@ -1,0 +1,12 @@
+fpga.c:27:13:fpga_no_sup	0	static
+fpga.c:41:24:fpga_get_desc	0	static
+fpga.c:77:12:fpga_dev_info	16	static
+fpga.c:58:24:fpga_validate	16	static
+fpga.c:126:6:fpga_init	0	static
+fpga.c:138:5:fpga_count	0	static
+fpga.c:147:5:fpga_add	8	static
+fpga.c:176:12:fpga_loadbitstream	8	static
+fpga.c:184:5:fpga_fsload	16	static
+fpga.c:214:5:fpga_load	16	static
+fpga.c:257:5:fpga_dump	16	static
+fpga.c:300:5:fpga_info	16	static

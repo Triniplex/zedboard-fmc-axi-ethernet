@@ -1,0 +1,12 @@
+marvell.c:106:13:m88e1xxx_parse_status	24	static
+marvell.c:163:12:m88e1011s_startup	8	static
+marvell.c:300:12:m88e1118_startup	24	static
+marvell.c:363:12:m88e1145_startup	16	static
+marvell.c:85:12:m88e1011s_config	24	static
+marvell.c:312:12:m88e1121_config	24	static
+marvell.c:172:12:m88e1111s_config	24	static
+marvell.c:280:12:m88e1118_config	24	static
+marvell.c:337:12:m88e1145_config	16	static
+marvell.c:374:12:m88e1149_config	24	static
+marvell.c:390:12:m88e1310_config	24	static
+marvell.c:511:5:phy_marvell_init	8	static

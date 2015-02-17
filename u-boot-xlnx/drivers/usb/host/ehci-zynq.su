@@ -1,0 +1,2 @@
+ehci-zynq.c:27:5:ehci_hcd_init	24	static
+ehci-zynq.c:87:5:ehci_hcd_stop	8	static

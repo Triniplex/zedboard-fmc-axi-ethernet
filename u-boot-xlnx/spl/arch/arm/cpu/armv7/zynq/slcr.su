@@ -1,0 +1,9 @@
+slcr.c:160:6:zynq_slcr_lock	0	static
+slcr.c:168:6:zynq_slcr_unlock	0	static
+slcr.c:177:6:zynq_slcr_cpu_reset	8	static
+slcr.c:197:6:zynq_slcr_gem_clk_setup	16	static
+slcr.c:224:6:zynq_slcr_devcfg_disable	8	static
+slcr.c:237:6:zynq_slcr_devcfg_enable	8	static
+slcr.c:250:5:zynq_slcr_get_boot_mode	0	static
+slcr.c:256:5:zynq_slcr_get_idcode	0	static
+slcr.c:270:5:zynq_slcr_get_mio_pin_status	24	static
