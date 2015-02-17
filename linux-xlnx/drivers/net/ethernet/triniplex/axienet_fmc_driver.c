@@ -911,7 +911,7 @@ int axienet_fmc_enable_interrupts(struct axienet_fmc_local *lp) {
 	bus = lp->mii_bus;
 
 	reg = axienet_mdio_read(bus, 0, XAE_IE_OFFSET);
-	reg != XAE_INT_RECV_ERROR_MASK;
+	reg |= XAE_INT_RECV_ERROR_MASK;
 	axienet_mdio_write(bus, 0, XAE_IE_OFFSET, reg & XAE_INT_ALL_MASK);
 	return 0;
 }

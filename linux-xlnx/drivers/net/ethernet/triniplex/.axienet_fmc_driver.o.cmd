@@ -1,8 +1,8 @@
-cmd_/root/zedboard-fmc-axi-ethernet/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.o := arm-xilinx-linux-gnueabi-gcc -Wp,-MD,/root/zedboard-fmc-axi-ethernet/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/.axienet_fmc_driver.o.d  -nostdinc -isystem /opt/Xilinx/SDK/2014.4/gnu/arm/lin/bin/../lib/gcc/arm-xilinx-linux-gnueabi/4.8.3/include -I./arch/arm/include -Iarch/arm/include/generated  -Iinclude -I./arch/arm/include/uapi -Iarch/arm/include/generated/uapi -I./include/uapi -Iinclude/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-dwarf2-cfi-asm -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Os -Wno-maybe-uninitialized --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fomit-frame-pointer -fno-var-tracking-assignments -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -DCC_HAVE_ASM_GOTO  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(axienet_fmc_driver)"  -D"KBUILD_MODNAME=KBUILD_STR(axienet_fmc_emac)" -c -o /root/zedboard-fmc-axi-ethernet/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/.tmp_axienet_fmc_driver.o /root/zedboard-fmc-axi-ethernet/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.c
+cmd_/root/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.o := arm-xilinx-linux-gnueabi-gcc -Wp,-MD,/root/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/.axienet_fmc_driver.o.d  -nostdinc -isystem /opt/Xilinx/SDK/2014.4/gnu/arm/lin/bin/../lib/gcc/arm-xilinx-linux-gnueabi/4.8.3/include -I./arch/arm/include -Iarch/arm/include/generated  -Iinclude -I./arch/arm/include/uapi -Iarch/arm/include/generated/uapi -I./include/uapi -Iinclude/generated/uapi -include ./include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-dwarf2-cfi-asm -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -marm -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Os -Wno-maybe-uninitialized --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fomit-frame-pointer -fno-var-tracking-assignments -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -DCC_HAVE_ASM_GOTO  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(axienet_fmc_driver)"  -D"KBUILD_MODNAME=KBUILD_STR(axienet_fmc_emac)" -c -o /root/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/.tmp_axienet_fmc_driver.o /root/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.c
 
-source_/root/zedboard-fmc-axi-ethernet/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.o := /root/zedboard-fmc-axi-ethernet/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.c
+source_/root/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.o := /root/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.c
 
-deps_/root/zedboard-fmc-axi-ethernet/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.o := \
+deps_/root/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.o := \
     $(wildcard include/config/net/poll/controller.h) \
   include/linux/delay.h \
   include/linux/kernel.h \
@@ -963,18 +963,18 @@ deps_/root/zedboard-fmc-axi-ethernet/zedboard-fmc-axi-ethernet/linux-xlnx/driver
   include/linux/irqdomain.h \
     $(wildcard include/config/irq/domain.h) \
   include/linux/of_address.h \
-  /root/zedboard-fmc-axi-ethernet/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_util.h \
-  /root/zedboard-fmc-axi-ethernet/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc.h \
+  /root/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_util.h \
+  /root/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc.h \
     $(wildcard include/config/of/mdio.h) \
     $(wildcard include/config/arch/zynq.h) \
-  /root/zedboard-fmc-axi-ethernet/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_hw.h \
+  /root/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_hw.h \
   include/linux/if_vlan.h \
   include/linux/rtnetlink.h \
   include/uapi/linux/rtnetlink.h \
   include/uapi/linux/if_addr.h \
   include/uapi/linux/if_vlan.h \
-  /root/zedboard-fmc-axi-ethernet/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_marvell.h \
+  /root/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_marvell.h \
 
-/root/zedboard-fmc-axi-ethernet/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.o: $(deps_/root/zedboard-fmc-axi-ethernet/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.o)
+/root/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.o: $(deps_/root/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.o)
 
-$(deps_/root/zedboard-fmc-axi-ethernet/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.o):
+$(deps_/root/zedboard-fmc-axi-ethernet/linux-xlnx/drivers/net/ethernet/triniplex/axienet_fmc_driver.o):

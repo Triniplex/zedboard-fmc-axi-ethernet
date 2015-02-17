@@ -10,3 +10,10 @@
     Unknown Error Occured
     Cable is not connected to the host
 
+10:04:41 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1424196235000,  Project:1423888208000
+10:04:41 INFO  : Project Z_system_wrapper_hw_platform_0's source hardware specification located at /root/base_zc706/base_zc706.sdk/Z_system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+10:04:42 INFO  : Copied contents of /root/base_zc706/base_zc706.sdk/Z_system_wrapper.hdf into /Z_system_wrapper_hw_platform_0/system.hdf.
+10:04:44 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:04:44 INFO  : Clearing existing target manager status.
+10:04:44 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
